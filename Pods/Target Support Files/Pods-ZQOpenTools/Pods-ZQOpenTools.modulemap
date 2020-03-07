@@ -1,0 +1,6 @@
+framework module Pods_ZQOpenTools {
+  umbrella header "Pods-ZQOpenTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
