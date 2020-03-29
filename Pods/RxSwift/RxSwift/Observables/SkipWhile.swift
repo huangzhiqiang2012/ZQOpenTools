@@ -25,8 +25,8 @@ final private class SkipWhileSink<Observer: ObserverType>: Sink<Observer>, Obser
     typealias Element = Observer.Element 
     typealias Parent = SkipWhile<Element>
 
-    private let _parent: Parent
-    private var _running = false
+    fileprivate let _parent: Parent
+    fileprivate var _running = false
 
     init(parent: Parent, observer: Observer, cancel: Cancelable) {
         self._parent = parent
@@ -59,7 +59,7 @@ final private class SkipWhileSink<Observer: ObserverType>: Sink<Observer>, Obser
 final private class SkipWhile<Element>: Producer<Element> {
     typealias Predicate = (Element) throws -> Bool
 
-    private let _source: Observable<Element>
+    fileprivate let _source: Observable<Element>
     fileprivate let _predicate: Predicate
 
     init(source: Observable<Element>, predicate: @escaping Predicate) {

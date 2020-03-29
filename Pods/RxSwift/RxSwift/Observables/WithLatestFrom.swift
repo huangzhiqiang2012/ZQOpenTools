@@ -43,9 +43,9 @@ final private class WithLatestFromSink<FirstType, SecondType, Observer: Observer
     typealias Parent = WithLatestFrom<FirstType, SecondType, ResultType>
     typealias Element = FirstType
     
-    private let _parent: Parent
+    fileprivate let _parent: Parent
     
-    fileprivate var _lock = RecursiveLock()
+    var _lock = RecursiveLock()
     fileprivate var _latest: SecondType?
 
     init(parent: Parent, observer: Observer, cancel: Cancelable) {

@@ -37,7 +37,7 @@ public final class BehaviorSubject<Element>
     private var _stoppedEvent: Event<Element>?
 
     #if DEBUG
-        private let _synchronizationTracker = SynchronizationTracker()
+        fileprivate let _synchronizationTracker = SynchronizationTracker()
     #endif
 
     /// Indicates whether the subject has been disposed.

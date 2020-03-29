@@ -39,7 +39,7 @@ public protocol ReactiveCompatible {
     /// Extended type
     associatedtype ReactiveBase
 
-    @available(*, deprecated, renamed: "ReactiveBase")
+    @available(*, deprecated, message: "Use `ReactiveBase` instead.")
     typealias CompatibleType = ReactiveBase
 
     /// Reactive extensions.
@@ -55,7 +55,6 @@ extension ReactiveCompatible {
         get {
             return Reactive<Self>.self
         }
-        // swiftlint:disable:next unused_setter_value
         set {
             // this enables using Reactive to "mutate" base type
         }
@@ -66,7 +65,6 @@ extension ReactiveCompatible {
         get {
             return Reactive(self)
         }
-        // swiftlint:disable:next unused_setter_value
         set {
             // this enables using Reactive to "mutate" base object
         }

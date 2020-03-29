@@ -179,7 +179,7 @@ public final class Variable<Element> {
     private var _value: Element
 
     #if DEBUG
-    private let _synchronizationTracker = SynchronizationTracker()
+    fileprivate let _synchronizationTracker = SynchronizationTracker()
     #endif
 
     /// Gets or sets current value of variable.

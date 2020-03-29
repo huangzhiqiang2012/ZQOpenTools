@@ -6,7 +6,7 @@
 //  Copyright © 2017 Krunoslav Zaher. All rights reserved.
 //
 
-private final class FirstSink<Element, Observer: ObserverType> : Sink<Observer>, ObserverType where Observer.Element == Element? {
+fileprivate final class FirstSink<Element, Observer: ObserverType> : Sink<Observer>, ObserverType where Observer.Element == Element? {
     typealias Parent = First<Element>
 
     func on(_ event: Event<Element>) {
@@ -27,7 +27,7 @@ private final class FirstSink<Element, Observer: ObserverType> : Sink<Observer>,
 }
 
 final class First<Element>: Producer<Element?> {
-    private let _source: Observable<Element>
+    fileprivate let _source: Observable<Element>
 
     init(source: Observable<Element>) {
         self._source = source

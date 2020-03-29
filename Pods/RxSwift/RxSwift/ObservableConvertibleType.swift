@@ -11,7 +11,7 @@ public protocol ObservableConvertibleType {
     /// Type of elements in sequence.
     associatedtype Element
 
-    @available(*, deprecated, renamed: "Element")
+    @available(*, deprecated, message: "Use `Element` instead.")
     typealias E = Element
 
     /// Converts `self` to `Observable` sequence.

@@ -227,14 +227,12 @@ class ZQMoyaController: ZQBaseController {
          func process(_ result: Result<Moya.Response, MoyaError>, target: TargetType) -> Result<Moya.Response, MoyaError>
      }
      */
-    private lazy var tableView:UITableView = {
-        let tableView = UITableView(frame: .zero)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
-        tableView.rowHeight = 44
-        tableView.dataSource = self
-        return tableView
-    }()
-
+    private lazy var tableView:UITableView = UITableView(frame: .zero).then {
+        $0.register(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
+        $0.rowHeight = 44
+        $0.dataSource = self
+    }
+    
     private var datasArr:[ZQPostModel] = [ZQPostModel]()
     
     override func viewDidLoad() {

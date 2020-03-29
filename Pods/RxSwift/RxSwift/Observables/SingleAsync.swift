@@ -36,7 +36,7 @@ extension ObservableType {
     }
 }
 
-private final class SingleAsyncSink<Observer: ObserverType> : Sink<Observer>, ObserverType {
+fileprivate final class SingleAsyncSink<Observer: ObserverType> : Sink<Observer>, ObserverType {
     typealias Element = Observer.Element
     typealias Parent = SingleAsync<Element>
     
@@ -88,7 +88,7 @@ private final class SingleAsyncSink<Observer: ObserverType> : Sink<Observer>, Ob
 final class SingleAsync<Element>: Producer<Element> {
     typealias Predicate = (Element) throws -> Bool
     
-    private let _source: Observable<Element>
+    fileprivate let _source: Observable<Element>
     fileprivate let _predicate: Predicate?
     
     init(source: Observable<Element>, predicate: Predicate? = nil) {

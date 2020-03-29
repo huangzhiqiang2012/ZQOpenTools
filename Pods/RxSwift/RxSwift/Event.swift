@@ -94,7 +94,7 @@ public protocol EventConvertible {
     /// Type of element in event
     associatedtype Element
 
-    @available(*, deprecated, renamed: "Element")
+    @available(*, deprecated, message: "Use `Element` instead.")
     typealias ElementType = Element
 
     /// Event representation of this instance

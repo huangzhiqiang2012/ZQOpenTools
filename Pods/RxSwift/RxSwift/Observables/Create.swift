@@ -30,7 +30,7 @@ final private class AnonymousObservableSink<Observer: ObserverType>: Sink<Observ
     private let _isStopped = AtomicInt(0)
 
     #if DEBUG
-        private let _synchronizationTracker = SynchronizationTracker()
+        fileprivate let _synchronizationTracker = SynchronizationTracker()
     #endif
 
     override init(observer: Observer, cancel: Cancelable) {

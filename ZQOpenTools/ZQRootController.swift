@@ -11,18 +11,13 @@ import UIKit
 /// 根视图控制器
 class ZQRootController: ZQBaseController {
     
-    private lazy var tableView:UITableView = {
-        let tableView = UITableView(frame: .zero)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
-        tableView.delegate = self
-        tableView.dataSource = self
-        return tableView
-    }()
+    private lazy var tableView:UITableView = UITableView(frame: .zero).then {
+        $0.register(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
+        $0.delegate = self
+        $0.dataSource = self
+    }
     
-    private lazy var datasArr:[String] = {
-        let arr = ["Moya", "Promise"]
-        return arr
-    }()
+    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

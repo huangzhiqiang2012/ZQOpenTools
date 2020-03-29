@@ -24,6 +24,38 @@
 		953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02B24133DFF004C621D /* ZQMoyaController.swift */; };
 		953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02F24134514004C621D /* ZQMoyaManager.swift */; };
 		9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543AF5F242EF4F800117032 /* ZQPromiseController.swift */; };
+		955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692A62430463C005CF750 /* ZQRefreshController.swift */; };
+		955692AA243063CC005CF750 /* ZQScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */; };
+		955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692AC243087E4005CF750 /* ZQRefreshView.swift */; };
+		955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955FC25E242F3C2800D724C7 /* ZQLottieController.swift */; };
+		955FC269242F3EB000D724C7 /* 226-splashy-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */; };
+		955FC26A242F3EB000D724C7 /* empty_status.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC262242F3EAA00D724C7 /* empty_status.json */; };
+		955FC26B242F3EB000D724C7 /* 201-simple-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC263242F3EAB00D724C7 /* 201-simple-loader.json */; };
+		955FC26C242F3EB000D724C7 /* wallet_&_coin.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC264242F3EAC00D724C7 /* wallet_&_coin.json */; };
+		955FC26D242F3EB000D724C7 /* loading_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC265242F3EAD00D724C7 /* loading_animation.json */; };
+		955FC26F242F3EB000D724C7 /* 3d_rotate_loading_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC267242F3EAE00D724C7 /* 3d_rotate_loading_animation.json */; };
+		955FC270242F3EB000D724C7 /* glow_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC268242F3EAF00D724C7 /* glow_loading.json */; };
+		955FC286242F82C800D724C7 /* FirstText.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC271242F82BE00D724C7 /* FirstText.json */; };
+		955FC287242F82C800D724C7 /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC272242F82BE00D724C7 /* PinJump.json */; };
+		955FC288242F82C800D724C7 /* TwitterHeartButton.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC273242F82BE00D724C7 /* TwitterHeartButton.json */; };
+		955FC289242F82C800D724C7 /* DisableNodesTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC274242F82BF00D724C7 /* DisableNodesTest.json */; };
+		955FC28A242F82C800D724C7 /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC275242F82C200D724C7 /* MotionCorpse-Jrcanest.json */; };
+		955FC28B242F82C800D724C7 /* base64Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC276242F82C300D724C7 /* base64Test.json */; };
+		955FC28C242F82C800D724C7 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC277242F82C300D724C7 /* Boat_Loader.json */; };
+		955FC28D242F82C800D724C7 /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC278242F82C300D724C7 /* 9squares-AlBoardman.json */; };
+		955FC28E242F82C800D724C7 /* Switch_States.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC279242F82C400D724C7 /* Switch_States.json */; };
+		955FC28F242F82C800D724C7 /* setValueTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27A242F82C400D724C7 /* setValueTest.json */; };
+		955FC290242F82C800D724C7 /* keypathTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27B242F82C500D724C7 /* keypathTest.json */; };
+		955FC291242F82C800D724C7 /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27C242F82C500D724C7 /* TwitterHeart.json */; };
+		955FC292242F82C800D724C7 /* timeremap.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27D242F82C500D724C7 /* timeremap.json */; };
+		955FC293242F82C800D724C7 /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27E242F82C600D724C7 /* LottieLogo2.json */; };
+		955FC294242F82C800D724C7 /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC27F242F82C600D724C7 /* HamburgerArrow.json */; };
+		955FC295242F82C800D724C7 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC280242F82C700D724C7 /* IconTransitions.json */; };
+		955FC296242F82C800D724C7 /* GeometryTransformTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC281242F82C700D724C7 /* GeometryTransformTest.json */; };
+		955FC297242F82C800D724C7 /* Keypath.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC282242F82C700D724C7 /* Keypath.json */; };
+		955FC298242F82C800D724C7 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC283242F82C700D724C7 /* Switch.json */; };
+		955FC299242F82C800D724C7 /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC284242F82C700D724C7 /* LottieLogo1_masked.json */; };
+		955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC285242F82C800D724C7 /* LottieLogo1.json */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
 		E36D5A8CC88825A5D5F3212E /* Pods_ZQOpenToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +106,38 @@
 		953CB02B24133DFF004C621D /* ZQMoyaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaController.swift; sourceTree = "<group>"; };
 		953CB02F24134514004C621D /* ZQMoyaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaManager.swift; sourceTree = "<group>"; };
 		9543AF5F242EF4F800117032 /* ZQPromiseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPromiseController.swift; sourceTree = "<group>"; };
+		955692A62430463C005CF750 /* ZQRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshController.swift; sourceTree = "<group>"; };
+		955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQScrollViewExtension.swift; sourceTree = "<group>"; };
+		955692AC243087E4005CF750 /* ZQRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshView.swift; sourceTree = "<group>"; };
+		955FC25E242F3C2800D724C7 /* ZQLottieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQLottieController.swift; sourceTree = "<group>"; };
+		955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "226-splashy-loader.json"; sourceTree = "<group>"; };
+		955FC262242F3EAA00D724C7 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
+		955FC263242F3EAB00D724C7 /* 201-simple-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "201-simple-loader.json"; sourceTree = "<group>"; };
+		955FC264242F3EAC00D724C7 /* wallet_&_coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wallet_&_coin.json"; sourceTree = "<group>"; };
+		955FC265242F3EAD00D724C7 /* loading_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_animation.json; sourceTree = "<group>"; };
+		955FC267242F3EAE00D724C7 /* 3d_rotate_loading_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3d_rotate_loading_animation.json; sourceTree = "<group>"; };
+		955FC268242F3EAF00D724C7 /* glow_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = glow_loading.json; sourceTree = "<group>"; };
+		955FC271242F82BE00D724C7 /* FirstText.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstText.json; sourceTree = "<group>"; };
+		955FC272242F82BE00D724C7 /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		955FC273242F82BE00D724C7 /* TwitterHeartButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeartButton.json; sourceTree = "<group>"; };
+		955FC274242F82BF00D724C7 /* DisableNodesTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DisableNodesTest.json; sourceTree = "<group>"; };
+		955FC275242F82C200D724C7 /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		955FC276242F82C300D724C7 /* base64Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = base64Test.json; sourceTree = "<group>"; };
+		955FC277242F82C300D724C7 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
+		955FC278242F82C300D724C7 /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		955FC279242F82C400D724C7 /* Switch_States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch_States.json; sourceTree = "<group>"; };
+		955FC27A242F82C400D724C7 /* setValueTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = setValueTest.json; sourceTree = "<group>"; };
+		955FC27B242F82C500D724C7 /* keypathTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = keypathTest.json; sourceTree = "<group>"; };
+		955FC27C242F82C500D724C7 /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		955FC27D242F82C500D724C7 /* timeremap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeremap.json; sourceTree = "<group>"; };
+		955FC27E242F82C600D724C7 /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		955FC27F242F82C600D724C7 /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		955FC280242F82C700D724C7 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		955FC281242F82C700D724C7 /* GeometryTransformTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GeometryTransformTest.json; sourceTree = "<group>"; };
+		955FC282242F82C700D724C7 /* Keypath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Keypath.json; sourceTree = "<group>"; };
+		955FC283242F82C700D724C7 /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
+		955FC284242F82C700D724C7 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		955FC285242F82C800D724C7 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E309CD568ABDA4F87E661A80 /* Pods-ZQOpenTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQOpenToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +243,8 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				955692A424304606005CF750 /* Refresh */,
+				955FC25C242F3B7200D724C7 /* Lottie */,
 				9543AF5D242EF4B800117032 /* Promise */,
 				953CB02D2413403C004C621D /* Moya */,
 				953CAFF424132EAC004C621D /* ZQAppDelegate.swift */,
@@ -256,6 +322,92 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		955692A424304606005CF750 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				955692AB24308471005CF750 /* View */,
+				955692A8243062E6005CF750 /* Extension */,
+				955692A524304613005CF750 /* Controller */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		955692A524304613005CF750 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				955692A62430463C005CF750 /* ZQRefreshController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		955692A8243062E6005CF750 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		955692AB24308471005CF750 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				955692AC243087E4005CF750 /* ZQRefreshView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		955FC25C242F3B7200D724C7 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				955FC260242F3E8800D724C7 /* Resources */,
+				955FC25D242F3B7A00D724C7 /* Controller */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		955FC25D242F3B7A00D724C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				955FC25E242F3C2800D724C7 /* ZQLottieController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		955FC260242F3E8800D724C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				955FC278242F82C300D724C7 /* 9squares-AlBoardman.json */,
+				955FC276242F82C300D724C7 /* base64Test.json */,
+				955FC277242F82C300D724C7 /* Boat_Loader.json */,
+				955FC274242F82BF00D724C7 /* DisableNodesTest.json */,
+				955FC271242F82BE00D724C7 /* FirstText.json */,
+				955FC281242F82C700D724C7 /* GeometryTransformTest.json */,
+				955FC27F242F82C600D724C7 /* HamburgerArrow.json */,
+				955FC280242F82C700D724C7 /* IconTransitions.json */,
+				955FC282242F82C700D724C7 /* Keypath.json */,
+				955FC27B242F82C500D724C7 /* keypathTest.json */,
+				955FC284242F82C700D724C7 /* LottieLogo1_masked.json */,
+				955FC285242F82C800D724C7 /* LottieLogo1.json */,
+				955FC27E242F82C600D724C7 /* LottieLogo2.json */,
+				955FC275242F82C200D724C7 /* MotionCorpse-Jrcanest.json */,
+				955FC272242F82BE00D724C7 /* PinJump.json */,
+				955FC27A242F82C400D724C7 /* setValueTest.json */,
+				955FC279242F82C400D724C7 /* Switch_States.json */,
+				955FC283242F82C700D724C7 /* Switch.json */,
+				955FC27D242F82C500D724C7 /* timeremap.json */,
+				955FC27C242F82C500D724C7 /* TwitterHeart.json */,
+				955FC273242F82BE00D724C7 /* TwitterHeartButton.json */,
+				955FC267242F3EAE00D724C7 /* 3d_rotate_loading_animation.json */,
+				955FC263242F3EAB00D724C7 /* 201-simple-loader.json */,
+				955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */,
+				955FC262242F3EAA00D724C7 /* empty_status.json */,
+				955FC268242F3EAF00D724C7 /* glow_loading.json */,
+				955FC265242F3EAD00D724C7 /* loading_animation.json */,
+				955FC264242F3EAC00D724C7 /* wallet_&_coin.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,7 +419,7 @@
 				953CAFED24132EAC004C621D /* Sources */,
 				953CAFEE24132EAC004C621D /* Frameworks */,
 				953CAFEF24132EAC004C621D /* Resources */,
-				AD6602A296CDD81A381193F5 /* [CP] Embed Pods Frameworks */,
+				761D78A65F9C1C0E1085CA22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,7 +457,7 @@
 				953CB00E24132EAD004C621D /* Sources */,
 				953CB00F24132EAD004C621D /* Frameworks */,
 				953CB01024132EAD004C621D /* Resources */,
-				9FDDC3A171BCB15D47F52F1F /* [CP] Embed Pods Frameworks */,
+				EA3BEDE92DE4444A268FEF49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,8 +517,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955FC26C242F3EB000D724C7 /* wallet_&_coin.json in Resources */,
+				955FC295242F82C800D724C7 /* IconTransitions.json in Resources */,
+				955FC28A242F82C800D724C7 /* MotionCorpse-Jrcanest.json in Resources */,
+				955FC28F242F82C800D724C7 /* setValueTest.json in Resources */,
+				955FC294242F82C800D724C7 /* HamburgerArrow.json in Resources */,
+				955FC298242F82C800D724C7 /* Switch.json in Resources */,
+				955FC28B242F82C800D724C7 /* base64Test.json in Resources */,
+				955FC297242F82C800D724C7 /* Keypath.json in Resources */,
+				955FC287242F82C800D724C7 /* PinJump.json in Resources */,
+				955FC28C242F82C800D724C7 /* Boat_Loader.json in Resources */,
+				955FC291242F82C800D724C7 /* TwitterHeart.json in Resources */,
+				955FC290242F82C800D724C7 /* keypathTest.json in Resources */,
+				955FC28D242F82C800D724C7 /* 9squares-AlBoardman.json in Resources */,
+				955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */,
+				955FC289242F82C800D724C7 /* DisableNodesTest.json in Resources */,
+				955FC288242F82C800D724C7 /* TwitterHeartButton.json in Resources */,
+				955FC270242F3EB000D724C7 /* glow_loading.json in Resources */,
+				955FC26F242F3EB000D724C7 /* 3d_rotate_loading_animation.json in Resources */,
 				953CB00124132EAD004C621D /* LaunchScreen.storyboard in Resources */,
 				953CAFFE24132EAD004C621D /* Assets.xcassets in Resources */,
+				955FC26D242F3EB000D724C7 /* loading_animation.json in Resources */,
+				955FC296242F82C800D724C7 /* GeometryTransformTest.json in Resources */,
+				955FC292242F82C800D724C7 /* timeremap.json in Resources */,
+				955FC28E242F82C800D724C7 /* Switch_States.json in Resources */,
+				955FC269242F3EB000D724C7 /* 226-splashy-loader.json in Resources */,
+				955FC293242F82C800D724C7 /* LottieLogo2.json in Resources */,
+				955FC286242F82C800D724C7 /* FirstText.json in Resources */,
+				955FC26B242F3EB000D724C7 /* 201-simple-loader.json in Resources */,
+				955FC299242F82C800D724C7 /* LottieLogo1_masked.json in Resources */,
+				955FC26A242F3EB000D724C7 /* empty_status.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,24 +589,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9FDDC3A171BCB15D47F52F1F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD6602A296CDD81A381193F5 /* [CP] Embed Pods Frameworks */ = {
+		761D78A65F9C1C0E1085CA22 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,6 +628,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EA3BEDE92DE4444A268FEF49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F0C8226C97AD3D32D65683C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,14 +675,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				953CB02924133A67004C621D /* ZQExtensions.swift in Sources */,
+				955692AA243063CC005CF750 /* ZQScrollViewExtension.swift in Sources */,
 				953CAFF924132EAC004C621D /* ZQRootController.swift in Sources */,
 				953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */,
 				9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */,
 				953CB027241334D3004C621D /* ZQHeader.swift in Sources */,
 				953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */,
+				955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */,
+				955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */,
 				9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */,
 				953CAFF724132EAC004C621D /* ZQSceneDelegate.swift in Sources */,
 				9537556D242B537C00F9AC69 /* ZQPostModel.swift in Sources */,
+				955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */,
 				953CB02524133356004C621D /* ZQBaseController.swift in Sources */,
 				953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */,
 				9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */,

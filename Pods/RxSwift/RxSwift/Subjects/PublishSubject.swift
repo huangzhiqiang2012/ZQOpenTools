@@ -37,7 +37,7 @@ public final class PublishSubject<Element>
     private var _stoppedEvent = nil as Event<Element>?
 
     #if DEBUG
-        private let _synchronizationTracker = SynchronizationTracker()
+        fileprivate let _synchronizationTracker = SynchronizationTracker()
     #endif
 
     /// Indicates whether the subject has been isDisposed.

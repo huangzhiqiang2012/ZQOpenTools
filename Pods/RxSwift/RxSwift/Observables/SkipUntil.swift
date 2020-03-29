@@ -29,7 +29,7 @@ final private class SkipUntilSinkOther<Other, Observer: ObserverType>
     typealias Parent = SkipUntilSink<Other, Observer>
     typealias Element = Other
     
-    private let _parent: Parent
+    fileprivate let _parent: Parent
 
     var _lock: RecursiveLock {
         return self._parent._lock
@@ -79,10 +79,10 @@ final private class SkipUntilSink<Other, Observer: ObserverType>
     typealias Parent = SkipUntil<Element, Other>
     
     let _lock = RecursiveLock()
-    private let _parent: Parent
+    fileprivate let _parent: Parent
     fileprivate var _forwardElements = false
     
-    private let _sourceSubscription = SingleAssignmentDisposable()
+    fileprivate let _sourceSubscription = SingleAssignmentDisposable()
 
     init(parent: Parent, observer: Observer, cancel: Cancelable) {
         self._parent = parent
