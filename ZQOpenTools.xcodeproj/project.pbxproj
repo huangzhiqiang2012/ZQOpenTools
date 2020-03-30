@@ -24,9 +24,11 @@
 		953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02B24133DFF004C621D /* ZQMoyaController.swift */; };
 		953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02F24134514004C621D /* ZQMoyaManager.swift */; };
 		9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543AF5F242EF4F800117032 /* ZQPromiseController.swift */; };
+		954402C92431978600594C36 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954402C72431978500594C36 /* placeholder@2x.png */; };
+		954402CA2431978600594C36 /* placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954402C82431978600594C36 /* placeholder@3x.png */; };
 		955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692A62430463C005CF750 /* ZQRefreshController.swift */; };
-		955692AA243063CC005CF750 /* ZQScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */; };
 		955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692AC243087E4005CF750 /* ZQRefreshView.swift */; };
+		955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692B02430CD9E005CF750 /* ZQKingfisherController.swift */; };
 		955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955FC25E242F3C2800D724C7 /* ZQLottieController.swift */; };
 		955FC269242F3EB000D724C7 /* 226-splashy-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */; };
 		955FC26A242F3EB000D724C7 /* empty_status.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC262242F3EAA00D724C7 /* empty_status.json */; };
@@ -106,9 +108,11 @@
 		953CB02B24133DFF004C621D /* ZQMoyaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaController.swift; sourceTree = "<group>"; };
 		953CB02F24134514004C621D /* ZQMoyaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaManager.swift; sourceTree = "<group>"; };
 		9543AF5F242EF4F800117032 /* ZQPromiseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPromiseController.swift; sourceTree = "<group>"; };
+		954402C72431978500594C36 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		954402C82431978600594C36 /* placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@3x.png"; sourceTree = "<group>"; };
 		955692A62430463C005CF750 /* ZQRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshController.swift; sourceTree = "<group>"; };
-		955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQScrollViewExtension.swift; sourceTree = "<group>"; };
 		955692AC243087E4005CF750 /* ZQRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshView.swift; sourceTree = "<group>"; };
+		955692B02430CD9E005CF750 /* ZQKingfisherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQKingfisherController.swift; sourceTree = "<group>"; };
 		955FC25E242F3C2800D724C7 /* ZQLottieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQLottieController.swift; sourceTree = "<group>"; };
 		955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "226-splashy-loader.json"; sourceTree = "<group>"; };
 		955FC262242F3EAA00D724C7 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
@@ -243,6 +247,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				955692AE2430CD79005CF750 /* Kingfisher */,
 				955692A424304606005CF750 /* Refresh */,
 				955FC25C242F3B7200D724C7 /* Lottie */,
 				9543AF5D242EF4B800117032 /* Promise */,
@@ -322,11 +327,19 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		954402C62431974A00594C36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				954402C72431978500594C36 /* placeholder@2x.png */,
+				954402C82431978600594C36 /* placeholder@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		955692A424304606005CF750 /* Refresh */ = {
 			isa = PBXGroup;
 			children = (
 				955692AB24308471005CF750 /* View */,
-				955692A8243062E6005CF750 /* Extension */,
 				955692A524304613005CF750 /* Controller */,
 			);
 			path = Refresh;
@@ -340,20 +353,29 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		955692A8243062E6005CF750 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				955692A9243063CC005CF750 /* ZQScrollViewExtension.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
 		955692AB24308471005CF750 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				955692AC243087E4005CF750 /* ZQRefreshView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		955692AE2430CD79005CF750 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				954402C62431974A00594C36 /* Resources */,
+				955692AF2430CD81005CF750 /* Controller */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		955692AF2430CD81005CF750 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				955692B02430CD9E005CF750 /* ZQKingfisherController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		955FC25C242F3B7200D724C7 /* Lottie */ = {
@@ -524,7 +546,9 @@
 				955FC294242F82C800D724C7 /* HamburgerArrow.json in Resources */,
 				955FC298242F82C800D724C7 /* Switch.json in Resources */,
 				955FC28B242F82C800D724C7 /* base64Test.json in Resources */,
+				954402C92431978600594C36 /* placeholder@2x.png in Resources */,
 				955FC297242F82C800D724C7 /* Keypath.json in Resources */,
+				954402CA2431978600594C36 /* placeholder@3x.png in Resources */,
 				955FC287242F82C800D724C7 /* PinJump.json in Resources */,
 				955FC28C242F82C800D724C7 /* Boat_Loader.json in Resources */,
 				955FC291242F82C800D724C7 /* TwitterHeart.json in Resources */,
@@ -674,8 +698,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */,
 				953CB02924133A67004C621D /* ZQExtensions.swift in Sources */,
-				955692AA243063CC005CF750 /* ZQScrollViewExtension.swift in Sources */,
 				953CAFF924132EAC004C621D /* ZQRootController.swift in Sources */,
 				953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */,
 				9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */,

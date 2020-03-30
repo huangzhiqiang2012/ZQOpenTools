@@ -17,7 +17,7 @@ class ZQRootController: ZQBaseController {
         $0.dataSource = self
     }
     
-    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh"]
+    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh", "Kingfisher"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,7 +52,7 @@ extension ZQRootController : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let title = datasArr[indexPath.row]
         let classStr = "ZQ\(title)Controller"
-        let vc = classStr.getViewControllerClass()
+        let vc = classStr.zq.getViewControllerClass()
         if !vc.isKind(of: UIViewController.self) {
             return
         }

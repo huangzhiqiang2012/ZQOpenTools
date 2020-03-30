@@ -17,3 +17,5 @@
 @_exported import Lottie
 @_exported import DGElasticPullToRefresh
 @_exported import MJRefresh
+@_exported import Kingfisher
+@_exported import KingfisherWebP

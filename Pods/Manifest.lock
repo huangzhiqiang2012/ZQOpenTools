@@ -2,6 +2,21 @@ PODS:
   - Alamofire (5.0.2)
   - DGElasticPullToRefresh (1.1)
   - HandyJSON (5.0.1)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - KingfisherWebP (0.7.0):
+    - Kingfisher (~> 5.8)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
   - lottie-ios (3.1.6)
   - MJRefresh (3.3.1)
   - Moya/Core (14.0.0):
@@ -30,6 +45,8 @@ PODS:
 DEPENDENCIES:
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
+  - Kingfisher
+  - KingfisherWebP
   - lottie-ios
   - MJRefresh
   - Moya/RxSwift (~> 14.0)
@@ -44,6 +61,9 @@ SPEC REPOS:
     - Alamofire
     - DGElasticPullToRefresh
     - HandyJSON
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
     - lottie-ios
     - MJRefresh
     - Moya
@@ -58,6 +78,9 @@ SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
+  libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
@@ -68,6 +91,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 
-PODFILE CHECKSUM: 07e712d2d80cfc849da9ac9cb2d41cec7e03fa88
+PODFILE CHECKSUM: dde72110c27643d9d06670f20aa1306bd5805e10
 
 COCOAPODS: 1.9.1

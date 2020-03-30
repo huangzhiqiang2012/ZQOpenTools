@@ -20,7 +20,8 @@ target 'ZQOpenTools' do
   pod 'lottie-ios'                 # 矢量动画库
   pod 'DGElasticPullToRefresh'     # 弹性下拉刷新效果
   pod "MJRefresh"                  # 下拉刷新,上拉加载更多
-  
+  pod 'Kingfisher'                 # 加载网络图片
+  pod 'KingfisherWebP'             # 支持webp图片格式
   
 
   # Pods for ZQOpenTools
