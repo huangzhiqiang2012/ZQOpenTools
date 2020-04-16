@@ -21,5 +21,6 @@
 @_exported import KingfisherWebP
 @_exported import AsyncDisplayKit
 @_exported import SwiftDate
+@_exported import SwiftRichString
 @_exported import ActiveLabel
 @_exported import RxGesture
