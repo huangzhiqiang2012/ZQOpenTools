@@ -71,12 +71,12 @@ extension ZQRefreshController {
         /// MJRefresh
         tableView1.zq.addMJRefreshHeader {[weak self] in
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                self?.tableView1.zq.stopMJRefreshHeader()
+                self?.tableView1.zq.endMJRefreshHeader()
             }
         }
         tableView1.zq.addMJRefreshFooter {[weak self] in
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                self?.tableView1.zq.stopMJRefreshFooterWithNoMoreData()
+                self?.tableView1.zq.endMJRefreshFooterWithNoMoreData()
             }
         }
     }

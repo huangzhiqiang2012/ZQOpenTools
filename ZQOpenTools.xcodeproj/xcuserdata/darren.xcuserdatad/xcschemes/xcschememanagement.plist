@@ -7,7 +7,25 @@
 		<key>ZQOpenTools.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>22</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>953CAFF024132EAC004C621D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953CB00624132EAD004C621D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>953CB01124132EAD004C621D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

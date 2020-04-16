@@ -8,10 +8,6 @@
 
 import UIKit
 
-class ZQBaseModel: HandyJSON {
-    required init() {}
-}
-
 class ZQPostModel: ZQBaseModel {
     var id: Int?
     var title: String?

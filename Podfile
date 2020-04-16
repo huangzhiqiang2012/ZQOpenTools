@@ -22,6 +22,11 @@ target 'ZQOpenTools' do
   pod "MJRefresh"                  # 下拉刷新,上拉加载更多
   pod 'Kingfisher'                 # 加载网络图片
   pod 'KingfisherWebP'             # 支持webp图片格式
+  pod 'Texture'                    # 异步渲染
+  pod 'SwiftDate'                  # 时间处理
+  pod 'SwiftRichString'            # 轻量级富文本
+  pod 'ActiveLabel'                # 可点击label
+  pod "RxGesture"                  # 手势的rx封装
   
 
   # Pods for ZQOpenTools

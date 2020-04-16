@@ -21,7 +21,6 @@ extension ZQExtensionsProvider {
     }
 }
 
-
 // MARK: String + Extension
 extension String:ZQExtensionsProvider {}
 extension ZQ where Base == String {
@@ -97,18 +96,23 @@ extension ZQ where Base : UIScrollView {
     }
     
     /// 停止刷新头
-    func stopMJRefreshHeader() {
+    func endMJRefreshHeader() {
         base.mj_header?.endRefreshing()
     }
     
     /// 停止刷新尾
-    func stopMJRefreshFooter() {
+    func endMJRefreshFooter() {
         base.mj_footer?.endRefreshing()
     }
     
     /// 停止刷新尾,没有更多数据
-    func stopMJRefreshFooterWithNoMoreData() {
+    func endMJRefreshFooterWithNoMoreData() {
         base.mj_footer?.endRefreshingWithNoMoreData()
+    }
+    
+    /// 重置没有更多的数据（消除没有更多数据的状态）
+    func resetMJRefreshFooterWithNoMoreData() {
+        base.mj_footer?.resetNoMoreData()
     }
 }
 
@@ -133,3 +137,82 @@ extension ZQ where Base == UIButton {
         return base.kf.setImage(with: URL(string: urlStr ?? ""), for: state, placeholder: placeholder, options:[.transition(.fade(0.5)), .processor(WebPProcessor.default), .cacheSerializer(WebPSerializer.default)])
     }
 }
+
+// MARK: ASDisplayNode + Extension
+extension ASDisplayNode:ZQExtensionsProvider{}
+extension ZQ where Base : ASDisplayNode {
+    func addSubNodes(_ nodes:[ASDisplayNode]) {
+        for node in nodes {
+            base.addSubnode(node)
+        }
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor, radius:CGFloat) -> Void {
+        base.borderWidth = borderWidth
+        base.borderColor = borderColor.cgColor
+        if radius > 0 {
+            base.cornerRadius = radius
+            base.clipsToBounds = true
+        }
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor) -> Void {
+        addBorder(withBorderWidth: borderWidth, borderColor: borderColor, radius: 0)
+    }
+    
+    func addRadius(radius:CGFloat) -> Void {
+        base.cornerRadius = radius
+        base.clipsToBounds = true
+    }
+}
+
+private struct ZQAssociatedKey {
+    static var reloadIndexPathsKey:UInt8 = 0
+}
+
+
+// MARK: ASTableNode  + Extension
+extension ASTableNode {
+    
+    /// 用于解决reloadData时闪烁问题
+    var reloadIndexPaths:[IndexPath] {
+        get {
+            return objc_getAssociatedObject(self, &ZQAssociatedKey.reloadIndexPathsKey) as? [IndexPath] ?? [IndexPath]()
+        }
+        set {
+            objc_setAssociatedObject(self, &ZQAssociatedKey.reloadIndexPathsKey, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+    }
+    
+    /// 刷新数据,解决闪烁问题,需在 func tableNode(_ tableNode: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock 方法中 配合 以下操作
+     /** if tableNode.reloadIndexPaths.contains(indexPath) {
+                cellNode.neverShowPlaceholders = true
+                cellNode.model = model
+              DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                cellNode.neverShowPlaceholders = false
+              }
+         }
+          else {
+               cellNode.neverShowPlaceholders = false
+               cellNode.model = model
+          }
+     */
+    /// 无闪烁刷新数据, 该方法只适用于数据源不发生变化的情况下使用,而上拉加载更多,下拉刷新之后的刷新列表不能用该方法
+    /// - Parameters:
+    ///   - indexPaths: 索引数组
+    func reloadDataWithoutFlashing(indexPaths:[IndexPath] = []) {
+        reloadIndexPaths = indexPaths.count == 0 ? indexPathsForVisibleRows() : indexPaths
+        reloadIndexPaths.count > 0 ? reloadRows(at: reloadIndexPaths, with: .none) : reloadData()
+    }
+    
+    
+}
+
+// MARK: Array + Extension
+extension Array {
+    subscript (safe index: Int) -> Element? {
+        return index < count ? self[index] : nil
+    }
+}
+
+

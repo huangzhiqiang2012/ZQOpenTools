@@ -24,6 +24,7 @@ extension Observable {
             guard let dic = response as? [String: Any] else {
                 throw ZQRxSwiftMoyaError.parseJSONError
             }
+//            print("--__--|| dic__\(dic)")
             return T.deserialize(from: dic) ?? T.init()
         }
     }
@@ -55,7 +56,7 @@ extension PrimitiveSequence where Trait == SingleTrait, Element == Response {
         return self.map({ (res) in
 
             /// 这里统一处理错误码
-            print("--__--|| statusCode___\(res.statusCode)")
+//            print("--__--|| statusCode___\(res.statusCode)")
             return res
         }).mapJSON().asObservable()
     }

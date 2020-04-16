@@ -8,9 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		68077DF7F820665B038D4AE6 /* Pods_ZQOpenTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412320F3E04DD4C6D3F83DCE /* Pods_ZQOpenTools.framework */; };
+		95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */; };
 		9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */; };
 		9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */; };
 		9537556D242B537C00F9AC69 /* ZQPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537556C242B537C00F9AC69 /* ZQPostModel.swift */; };
+		95399FE22434470B00991E39 /* ZQTextureRelationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95399FE12434470B00991E39 /* ZQTextureRelationNode.swift */; };
+		95399FE424346D9100991E39 /* ZQTextureRelationCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95399FE324346D9100991E39 /* ZQTextureRelationCellNode.swift */; };
+		95399FE72434709100991E39 /* detail_more_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95399FE52434709100991E39 /* detail_more_down@3x.png */; };
+		95399FE82434709100991E39 /* detail_more_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95399FE62434709100991E39 /* detail_more_down@2x.png */; };
+		95399FEB24347A8B00991E39 /* detail_time@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95399FE924347A8A00991E39 /* detail_time@3x.png */; };
+		95399FEC24347A8B00991E39 /* detail_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95399FEA24347A8B00991E39 /* detail_time@2x.png */; };
+		9539A455243F249A00825901 /* ZQTextureDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9539A454243F249A00825901 /* ZQTextureDetailController.swift */; };
 		953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CAFF424132EAC004C621D /* ZQAppDelegate.swift */; };
 		953CAFF724132EAC004C621D /* ZQSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CAFF624132EAC004C621D /* ZQSceneDelegate.swift */; };
 		953CAFF924132EAC004C621D /* ZQRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CAFF824132EAC004C621D /* ZQRootController.swift */; };
@@ -23,12 +31,28 @@
 		953CB02924133A67004C621D /* ZQExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02824133A67004C621D /* ZQExtensions.swift */; };
 		953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02B24133DFF004C621D /* ZQMoyaController.swift */; };
 		953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CB02F24134514004C621D /* ZQMoyaManager.swift */; };
+		953DE6702433139D00E4A949 /* ZQTextureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DE66F2433139D00E4A949 /* ZQTextureModel.swift */; };
+		953DE6732433159100E4A949 /* ZQTextureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953DE6722433159100E4A949 /* ZQTextureViewModel.swift */; };
 		9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543AF5F242EF4F800117032 /* ZQPromiseController.swift */; };
 		954402C92431978600594C36 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954402C72431978500594C36 /* placeholder@2x.png */; };
 		954402CA2431978600594C36 /* placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954402C82431978600594C36 /* placeholder@3x.png */; };
+		954402CE2431CEB200594C36 /* ZQTextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954402CD2431CEB200594C36 /* ZQTextureController.swift */; };
+		95478B672446A8310042BCBA /* ZQTextureListCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95478B662446A8310042BCBA /* ZQTextureListCellNode.swift */; };
+		95478B692446B2800042BCBA /* list_wark.png in Resources */ = {isa = PBXBuildFile; fileRef = 95478B682446B2800042BCBA /* list_wark.png */; };
 		955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692A62430463C005CF750 /* ZQRefreshController.swift */; };
 		955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692AC243087E4005CF750 /* ZQRefreshView.swift */; };
 		955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955692B02430CD9E005CF750 /* ZQKingfisherController.swift */; };
+		955BF60024337D42000AF568 /* detail_userType@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF5FE24337D42000AF568 /* detail_userType@3x.png */; };
+		955BF60124337D42000AF568 /* detail_userType@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF5FF24337D42000AF568 /* detail_userType@2x.png */; };
+		955BF60424337E52000AF568 /* ZQCustomASNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BF60324337E52000AF568 /* ZQCustomASNode.swift */; };
+		955BF60B243386EA000AF568 /* detail_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF605243386E9000AF568 /* detail_comment@2x.png */; };
+		955BF60C243386EA000AF568 /* detail_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF606243386E9000AF568 /* detail_comment@3x.png */; };
+		955BF60D243386EA000AF568 /* detail_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF607243386E9000AF568 /* detail_like@2x.png */; };
+		955BF60E243386EA000AF568 /* detail_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF608243386E9000AF568 /* detail_like@3x.png */; };
+		955BF60F243386EA000AF568 /* detail_watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF609243386E9000AF568 /* detail_watch@2x.png */; };
+		955BF610243386EA000AF568 /* detail_watch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF60A243386EA000AF568 /* detail_watch@3x.png */; };
+		955BF6132433879F000AF568 /* detail_like_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF6112433879F000AF568 /* detail_like_selected@2x.png */; };
+		955BF6142433879F000AF568 /* detail_like_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955BF6122433879F000AF568 /* detail_like_selected@3x.png */; };
 		955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955FC25E242F3C2800D724C7 /* ZQLottieController.swift */; };
 		955FC269242F3EB000D724C7 /* 226-splashy-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */; };
 		955FC26A242F3EB000D724C7 /* empty_status.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC262242F3EAA00D724C7 /* empty_status.json */; };
@@ -58,6 +82,12 @@
 		955FC298242F82C800D724C7 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC283242F82C700D724C7 /* Switch.json */; };
 		955FC299242F82C800D724C7 /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC284242F82C700D724C7 /* LottieLogo1_masked.json */; };
 		955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC285242F82C800D724C7 /* LottieLogo1.json */; };
+		95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA4243848C200AE21AF /* ZQBaseViewModel.swift */; };
+		95657FA824384A0F00AE21AF /* ZQPageFetchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */; };
+		95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA92438578400AE21AF /* ZQBaseModel.swift */; };
+		95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */; };
+		957322D72437373D00252A2A /* ZQTextureCommentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957322D62437373D00252A2A /* ZQTextureCommentNode.swift */; };
+		9580D27924332A6700296BED /* ZQTextureHeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
 		E36D5A8CC88825A5D5F3212E /* Pods_ZQOpenToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */; };
 /* End PBXBuildFile section */
@@ -86,9 +116,17 @@
 		4EFB7134EDCDDB9756A0598B /* Pods-ZQOpenTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.release.xcconfig"; sourceTree = "<group>"; };
 		549C13D5C1E994296B3A8D5A /* Pods-ZQOpenToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69722F1D5295163C3D706BDD /* Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseASViewController.swift; sourceTree = "<group>"; };
 		9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaAPI.swift; sourceTree = "<group>"; };
 		9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+HandyJSON.swift"; sourceTree = "<group>"; };
 		9537556C242B537C00F9AC69 /* ZQPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPostModel.swift; sourceTree = "<group>"; };
+		95399FE12434470B00991E39 /* ZQTextureRelationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureRelationNode.swift; sourceTree = "<group>"; };
+		95399FE324346D9100991E39 /* ZQTextureRelationCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureRelationCellNode.swift; sourceTree = "<group>"; };
+		95399FE52434709100991E39 /* detail_more_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_more_down@3x.png"; sourceTree = "<group>"; };
+		95399FE62434709100991E39 /* detail_more_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_more_down@2x.png"; sourceTree = "<group>"; };
+		95399FE924347A8A00991E39 /* detail_time@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_time@3x.png"; sourceTree = "<group>"; };
+		95399FEA24347A8B00991E39 /* detail_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_time@2x.png"; sourceTree = "<group>"; };
+		9539A454243F249A00825901 /* ZQTextureDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureDetailController.swift; sourceTree = "<group>"; };
 		953CAFF124132EAC004C621D /* ZQOpenTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQOpenTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953CAFF424132EAC004C621D /* ZQAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQAppDelegate.swift; sourceTree = "<group>"; };
 		953CAFF624132EAC004C621D /* ZQSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,12 +145,28 @@
 		953CB02824133A67004C621D /* ZQExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQExtensions.swift; sourceTree = "<group>"; };
 		953CB02B24133DFF004C621D /* ZQMoyaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaController.swift; sourceTree = "<group>"; };
 		953CB02F24134514004C621D /* ZQMoyaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaManager.swift; sourceTree = "<group>"; };
+		953DE66F2433139D00E4A949 /* ZQTextureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureModel.swift; sourceTree = "<group>"; };
+		953DE6722433159100E4A949 /* ZQTextureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureViewModel.swift; sourceTree = "<group>"; };
 		9543AF5F242EF4F800117032 /* ZQPromiseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPromiseController.swift; sourceTree = "<group>"; };
 		954402C72431978500594C36 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		954402C82431978600594C36 /* placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@3x.png"; sourceTree = "<group>"; };
+		954402CD2431CEB200594C36 /* ZQTextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureController.swift; sourceTree = "<group>"; };
+		95478B662446A8310042BCBA /* ZQTextureListCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureListCellNode.swift; sourceTree = "<group>"; };
+		95478B682446B2800042BCBA /* list_wark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_wark.png; sourceTree = "<group>"; };
 		955692A62430463C005CF750 /* ZQRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshController.swift; sourceTree = "<group>"; };
 		955692AC243087E4005CF750 /* ZQRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRefreshView.swift; sourceTree = "<group>"; };
 		955692B02430CD9E005CF750 /* ZQKingfisherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQKingfisherController.swift; sourceTree = "<group>"; };
+		955BF5FE24337D42000AF568 /* detail_userType@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_userType@3x.png"; sourceTree = "<group>"; };
+		955BF5FF24337D42000AF568 /* detail_userType@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_userType@2x.png"; sourceTree = "<group>"; };
+		955BF60324337E52000AF568 /* ZQCustomASNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQCustomASNode.swift; sourceTree = "<group>"; };
+		955BF605243386E9000AF568 /* detail_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_comment@2x.png"; sourceTree = "<group>"; };
+		955BF606243386E9000AF568 /* detail_comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_comment@3x.png"; sourceTree = "<group>"; };
+		955BF607243386E9000AF568 /* detail_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_like@2x.png"; sourceTree = "<group>"; };
+		955BF608243386E9000AF568 /* detail_like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_like@3x.png"; sourceTree = "<group>"; };
+		955BF609243386E9000AF568 /* detail_watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_watch@2x.png"; sourceTree = "<group>"; };
+		955BF60A243386EA000AF568 /* detail_watch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_watch@3x.png"; sourceTree = "<group>"; };
+		955BF6112433879F000AF568 /* detail_like_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_like_selected@2x.png"; sourceTree = "<group>"; };
+		955BF6122433879F000AF568 /* detail_like_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_like_selected@3x.png"; sourceTree = "<group>"; };
 		955FC25E242F3C2800D724C7 /* ZQLottieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQLottieController.swift; sourceTree = "<group>"; };
 		955FC261242F3EAA00D724C7 /* 226-splashy-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "226-splashy-loader.json"; sourceTree = "<group>"; };
 		955FC262242F3EAA00D724C7 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
@@ -142,6 +196,12 @@
 		955FC283242F82C700D724C7 /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
 		955FC284242F82C700D724C7 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
 		955FC285242F82C800D724C7 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		95657FA4243848C200AE21AF /* ZQBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseViewModel.swift; sourceTree = "<group>"; };
+		95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPageFetchProtocol.swift; sourceTree = "<group>"; };
+		95657FA92438578400AE21AF /* ZQBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseModel.swift; sourceTree = "<group>"; };
+		95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentCellNode.swift; sourceTree = "<group>"; };
+		957322D62437373D00252A2A /* ZQTextureCommentNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentNode.swift; sourceTree = "<group>"; };
+		9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureHeaderNode.swift; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E309CD568ABDA4F87E661A80 /* Pods-ZQOpenTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQOpenToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +307,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				954402CB2431CE8D00594C36 /* Texture */,
 				955692AE2430CD79005CF750 /* Kingfisher */,
 				955692A424304606005CF750 /* Refresh */,
 				955FC25C242F3B7200D724C7 /* Lottie */,
@@ -311,6 +372,22 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		953DE66E2433138100E4A949 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				953DE66F2433139D00E4A949 /* ZQTextureModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		953DE671243314FF00E4A949 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				953DE6722433159100E4A949 /* ZQTextureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9543AF5D242EF4B800117032 /* Promise */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +411,29 @@
 				954402C82431978600594C36 /* placeholder@3x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		954402CB2431CE8D00594C36 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				95657FA62438499800AE21AF /* Protocol */,
+				955BF60224337E1D000AF568 /* Base */,
+				955BF5FD24337CFA000AF568 /* Resources */,
+				9580D277243329E300296BED /* Node */,
+				953DE671243314FF00E4A949 /* ViewModel */,
+				953DE66E2433138100E4A949 /* Model */,
+				954402CC2431CE9700594C36 /* Controller */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		954402CC2431CE9700594C36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				954402CD2431CEB200594C36 /* ZQTextureController.swift */,
+				9539A454243F249A00825901 /* ZQTextureDetailController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		955692A424304606005CF750 /* Refresh */ = {
@@ -376,6 +476,38 @@
 				955692B02430CD9E005CF750 /* ZQKingfisherController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		955BF5FD24337CFA000AF568 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95478B682446B2800042BCBA /* list_wark.png */,
+				95399FEA24347A8B00991E39 /* detail_time@2x.png */,
+				95399FE924347A8A00991E39 /* detail_time@3x.png */,
+				95399FE62434709100991E39 /* detail_more_down@2x.png */,
+				95399FE52434709100991E39 /* detail_more_down@3x.png */,
+				955BF6112433879F000AF568 /* detail_like_selected@2x.png */,
+				955BF6122433879F000AF568 /* detail_like_selected@3x.png */,
+				955BF605243386E9000AF568 /* detail_comment@2x.png */,
+				955BF606243386E9000AF568 /* detail_comment@3x.png */,
+				955BF607243386E9000AF568 /* detail_like@2x.png */,
+				955BF608243386E9000AF568 /* detail_like@3x.png */,
+				955BF609243386E9000AF568 /* detail_watch@2x.png */,
+				955BF60A243386EA000AF568 /* detail_watch@3x.png */,
+				955BF5FF24337D42000AF568 /* detail_userType@2x.png */,
+				955BF5FE24337D42000AF568 /* detail_userType@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		955BF60224337E1D000AF568 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */,
+				95657FA4243848C200AE21AF /* ZQBaseViewModel.swift */,
+				95657FA92438578400AE21AF /* ZQBaseModel.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		955FC25C242F3B7200D724C7 /* Lottie */ = {
@@ -428,6 +560,28 @@
 				955FC264242F3EAC00D724C7 /* wallet_&_coin.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		95657FA62438499800AE21AF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9580D277243329E300296BED /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				955BF60324337E52000AF568 /* ZQCustomASNode.swift */,
+				95478B662446A8310042BCBA /* ZQTextureListCellNode.swift */,
+				9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */,
+				95399FE12434470B00991E39 /* ZQTextureRelationNode.swift */,
+				95399FE324346D9100991E39 /* ZQTextureRelationCellNode.swift */,
+				957322D62437373D00252A2A /* ZQTextureCommentNode.swift */,
+				95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */,
+			);
+			path = Node;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -541,15 +695,22 @@
 			files = (
 				955FC26C242F3EB000D724C7 /* wallet_&_coin.json in Resources */,
 				955FC295242F82C800D724C7 /* IconTransitions.json in Resources */,
+				955BF6142433879F000AF568 /* detail_like_selected@3x.png in Resources */,
+				955BF60B243386EA000AF568 /* detail_comment@2x.png in Resources */,
+				95399FEC24347A8B00991E39 /* detail_time@2x.png in Resources */,
 				955FC28A242F82C800D724C7 /* MotionCorpse-Jrcanest.json in Resources */,
 				955FC28F242F82C800D724C7 /* setValueTest.json in Resources */,
+				955BF6132433879F000AF568 /* detail_like_selected@2x.png in Resources */,
 				955FC294242F82C800D724C7 /* HamburgerArrow.json in Resources */,
+				95399FE82434709100991E39 /* detail_more_down@2x.png in Resources */,
 				955FC298242F82C800D724C7 /* Switch.json in Resources */,
 				955FC28B242F82C800D724C7 /* base64Test.json in Resources */,
 				954402C92431978600594C36 /* placeholder@2x.png in Resources */,
 				955FC297242F82C800D724C7 /* Keypath.json in Resources */,
 				954402CA2431978600594C36 /* placeholder@3x.png in Resources */,
+				955BF60E243386EA000AF568 /* detail_like@3x.png in Resources */,
 				955FC287242F82C800D724C7 /* PinJump.json in Resources */,
+				955BF60C243386EA000AF568 /* detail_comment@3x.png in Resources */,
 				955FC28C242F82C800D724C7 /* Boat_Loader.json in Resources */,
 				955FC291242F82C800D724C7 /* TwitterHeart.json in Resources */,
 				955FC290242F82C800D724C7 /* keypathTest.json in Resources */,
@@ -557,10 +718,15 @@
 				955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */,
 				955FC289242F82C800D724C7 /* DisableNodesTest.json in Resources */,
 				955FC288242F82C800D724C7 /* TwitterHeartButton.json in Resources */,
+				955BF60124337D42000AF568 /* detail_userType@2x.png in Resources */,
 				955FC270242F3EB000D724C7 /* glow_loading.json in Resources */,
+				955BF60F243386EA000AF568 /* detail_watch@2x.png in Resources */,
 				955FC26F242F3EB000D724C7 /* 3d_rotate_loading_animation.json in Resources */,
 				953CB00124132EAD004C621D /* LaunchScreen.storyboard in Resources */,
+				955BF610243386EA000AF568 /* detail_watch@3x.png in Resources */,
 				953CAFFE24132EAD004C621D /* Assets.xcassets in Resources */,
+				95399FEB24347A8B00991E39 /* detail_time@3x.png in Resources */,
+				95478B692446B2800042BCBA /* list_wark.png in Resources */,
 				955FC26D242F3EB000D724C7 /* loading_animation.json in Resources */,
 				955FC296242F82C800D724C7 /* GeometryTransformTest.json in Resources */,
 				955FC292242F82C800D724C7 /* timeremap.json in Resources */,
@@ -569,7 +735,10 @@
 				955FC293242F82C800D724C7 /* LottieLogo2.json in Resources */,
 				955FC286242F82C800D724C7 /* FirstText.json in Resources */,
 				955FC26B242F3EB000D724C7 /* 201-simple-loader.json in Resources */,
+				955BF60024337D42000AF568 /* detail_userType@3x.png in Resources */,
+				95399FE72434709100991E39 /* detail_more_down@3x.png in Resources */,
 				955FC299242F82C800D724C7 /* LottieLogo1_masked.json in Resources */,
+				955BF60D243386EA000AF568 /* detail_like@2x.png in Resources */,
 				955FC26A242F3EB000D724C7 /* empty_status.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,22 +867,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9580D27924332A6700296BED /* ZQTextureHeaderNode.swift in Sources */,
+				954402CE2431CEB200594C36 /* ZQTextureController.swift in Sources */,
+				95399FE424346D9100991E39 /* ZQTextureRelationCellNode.swift in Sources */,
+				95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */,
 				955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */,
+				95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */,
+				955BF60424337E52000AF568 /* ZQCustomASNode.swift in Sources */,
+				957322D72437373D00252A2A /* ZQTextureCommentNode.swift in Sources */,
 				953CB02924133A67004C621D /* ZQExtensions.swift in Sources */,
 				953CAFF924132EAC004C621D /* ZQRootController.swift in Sources */,
 				953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */,
 				9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */,
+				9539A455243F249A00825901 /* ZQTextureDetailController.swift in Sources */,
 				953CB027241334D3004C621D /* ZQHeader.swift in Sources */,
 				953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */,
+				95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */,
 				955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */,
 				955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */,
 				9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */,
 				953CAFF724132EAC004C621D /* ZQSceneDelegate.swift in Sources */,
 				9537556D242B537C00F9AC69 /* ZQPostModel.swift in Sources */,
+				953DE6702433139D00E4A949 /* ZQTextureModel.swift in Sources */,
 				955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */,
 				953CB02524133356004C621D /* ZQBaseController.swift in Sources */,
+				953DE6732433159100E4A949 /* ZQTextureViewModel.swift in Sources */,
 				953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */,
 				9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */,
+				95399FE22434470B00991E39 /* ZQTextureRelationNode.swift in Sources */,
+				95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */,
+				95478B672446A8310042BCBA /* ZQTextureListCellNode.swift in Sources */,
+				95657FA824384A0F00AE21AF /* ZQPageFetchProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,6 +1074,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -909,6 +1094,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
