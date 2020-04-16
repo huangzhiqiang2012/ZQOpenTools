@@ -31,13 +31,74 @@ extension ZQTextureViewModel {
     ///   - completion: 回调
     func requestListData(isFirstFetch: Bool, uid:String, scrollView:UIScrollView, completion:@escaping (() -> ())) {
         ZQMoyaManager.callTextureApiMapObject(.list(uid:uid, page: caculatePage(isFirstFetch), perPage: perPage), type: ZQTextureListResModel.self).done { (model) in
+            
+            if model.datas?.content?.count == 0 {
+                
+                /// 测试数据
+                let model0 = ZQTextureArticleModel()
+                model0.id = 626248
+                model0.title = "听说马可波罗很帅"
+                model0.photo = "/newImage/article/202004/be8aa1259c13457ca15fc9533cd66dd5.jpeg"
+                model0.createTime = "2020-04-10 10:43:29"
+                model0.visitNum = 8
+                model0.commentsNum = 0
+                model0.likesNum = 0
+                
+                let model1 = ZQTextureArticleModel()
+                model1.id = 610050
+                model1.title = "就是个帅哥"
+                model1.photo = "/newImage/article/202004/90a7acaa8ef84beda159c7af6c62d5e2.jpeg"
+                model1.createTime = "2020-04-01 11:07:29"
+                model1.visitNum = 129
+                model1.commentsNum = 4
+                model1.likesNum = 1
+                
+                let datas = ZQTextureListDatasModel()
+                datas.content = [model0, model1]
+                
+                let page = ZQPageModel()
+                page.totalCount = 12
+                datas.page = page
+                model.datas = datas
+            }
             let articleArr = model.datas?.content ?? [ZQTextureArticleModel]()
             self.handleData(articleArr, scrollView: scrollView, isFirstFetch: isFirstFetch, totalCount: model.datas?.page?.totalCount ?? 0)
+            
             completion()
         }.catch { (error) in
             print("--__--|| error___\(error)")
             
             /// 测试数据
+            let model0 = ZQTextureArticleModel()
+            model0.id = 626248
+            model0.title = "听说马可波罗很帅"
+            model0.photo = "/newImage/article/202004/be8aa1259c13457ca15fc9533cd66dd5.jpeg"
+            model0.createTime = "2020-04-10 10:43:29"
+            model0.visitNum = 8
+            model0.commentsNum = 0
+            model0.likesNum = 0
+            
+            let model1 = ZQTextureArticleModel()
+            model1.id = 610050
+            model1.title = "就是个帅哥"
+            model1.photo = "/newImage/article/202004/90a7acaa8ef84beda159c7af6c62d5e2.jpeg"
+            model1.createTime = "2020-04-01 11:07:29"
+            model1.visitNum = 129
+            model1.commentsNum = 4
+            model1.likesNum = 1
+            
+            let datas = ZQTextureListDatasModel()
+            datas.content = [model0, model1]
+            
+            let page = ZQPageModel()
+            page.totalCount = 12
+            datas.page = page
+            
+            let model = ZQTextureListResModel()
+            model.datas = datas
+            let articleArr = model.datas?.content ?? [ZQTextureArticleModel]()
+            self.handleData(articleArr, scrollView: scrollView, isFirstFetch: isFirstFetch, totalCount: model.datas?.page?.totalCount ?? 0)
+            
             completion()
         }
     }

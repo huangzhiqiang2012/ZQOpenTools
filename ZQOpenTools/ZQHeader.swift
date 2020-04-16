@@ -22,3 +22,4 @@
 @_exported import AsyncDisplayKit
 @_exported import SwiftDate
 @_exported import ActiveLabel
+@_exported import RxGesture

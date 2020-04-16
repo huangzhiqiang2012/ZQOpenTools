@@ -92,7 +92,7 @@ extension ZQTextureAPI: TargetType {
     var task: Task {
         var params: [String: Any] = [:]
         params["cp"] = "2"
-        params["access-token"] = "R6tICSTd43ZVAy4fC61aRNuxSemEZ_JB"
+        params["access-token"] = "ImXP8RBZAblQkdo6DIH9LvPLWIeiTKx6"
         
         switch self {
         case .list(let uid, let page, let perPage):
