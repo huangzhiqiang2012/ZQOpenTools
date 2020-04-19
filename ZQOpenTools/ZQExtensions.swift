@@ -116,8 +116,32 @@ extension ZQ where Base : UIScrollView {
     }
 }
 
+// MARK: UIView + Extension
+extension UIView : ZQExtensionsProvider {}
+extension ZQ where Base : UIView {
+    func addSubViews(_ views:[UIView]) {
+        for view in views {
+            base.addSubview(view)
+        }
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor, radius:CGFloat) -> Void {
+        base.layer.borderWidth = borderWidth
+        base.layer.borderColor = borderColor.cgColor
+        addRadius(radius: radius)
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor) -> Void {
+        addBorder(withBorderWidth: borderWidth, borderColor: borderColor, radius: 0)
+    }
+    
+    func addRadius(radius:CGFloat) -> Void {
+        base.layer.cornerRadius = radius
+        base.clipsToBounds = radius > 0 ? true : false
+    }
+}
+
 // MARK: UIImageView + Extension
-extension UIImageView:ZQExtensionsProvider{}
 extension ZQ where Base == UIImageView {
     
     @discardableResult
@@ -128,7 +152,6 @@ extension ZQ where Base == UIImageView {
 }
 
 // MARK: UIButton + Extension
-extension UIButton:ZQExtensionsProvider{}
 extension ZQ where Base == UIButton {
     
     @discardableResult
@@ -150,10 +173,7 @@ extension ZQ where Base : ASDisplayNode {
     func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor, radius:CGFloat) -> Void {
         base.borderWidth = borderWidth
         base.borderColor = borderColor.cgColor
-        if radius > 0 {
-            base.cornerRadius = radius
-            base.clipsToBounds = true
-        }
+        addRadius(radius: radius)
     }
     
     func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor) -> Void {
@@ -162,7 +182,7 @@ extension ZQ where Base : ASDisplayNode {
     
     func addRadius(radius:CGFloat) -> Void {
         base.cornerRadius = radius
-        base.clipsToBounds = true
+        base.clipsToBounds = radius > 0 ? true : false
     }
 }
 
@@ -204,8 +224,6 @@ extension ASTableNode {
         reloadIndexPaths = indexPaths.count == 0 ? indexPathsForVisibleRows() : indexPaths
         reloadIndexPaths.count > 0 ? reloadRows(at: reloadIndexPaths, with: .none) : reloadData()
     }
-    
-    
 }
 
 // MARK: Array + Extension
@@ -214,5 +232,3 @@ extension Array {
         return index < count ? self[index] : nil
     }
 }
-
-

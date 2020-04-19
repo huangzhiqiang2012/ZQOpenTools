@@ -93,13 +93,9 @@ class ZQKingfisherController: ZQBaseController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
     }
-}
-
-// MARK: private
-extension ZQKingfisherController {
-    private func setupViews() {
+    
+    override func setupViews() {
         for i in 0..<2 {
             let imageView = UIImageView()
             let urlStr = i % 2 == 0 ? "http://mmbiz.qpic.cn/mmbiz_jpg/AZQZ9KUtamupibEQMmFDLqqsU7RLEvH5h5sPcyZEvhv6tQ5y3WAYKYibeQfnOtQulul5QHFHpL9b0icCKliajWFe2A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1" : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585549454825&di=c7e3be2174ca31f5b391eae7a1110e35&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fview%2Fnote%2Fl%2Fpublic%2Fp51213326.jpg"

@@ -84,17 +84,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RxGesture.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>RxRelay.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SKPhotoBrowser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -110,6 +110,11 @@
 			<false/>
 		</dict>
 		<key>SwiftRichString.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TZImagePickerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -12,12 +12,13 @@ ${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework
 ${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework
 ${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
-${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework
 ${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SKPhotoBrowser/SKPhotoBrowser.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
 ${BUILT_PRODUCTS_DIR}/SwiftRichString/SwiftRichString.framework
+${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework
 ${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework
 ${BUILT_PRODUCTS_DIR}/Then/Then.framework
 ${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework

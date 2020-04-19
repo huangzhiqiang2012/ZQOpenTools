@@ -13,13 +13,9 @@ class ZQSwiftRichStringController: ZQBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
     }
-}
-
-// MARK: private
-extension ZQSwiftRichStringController {
-    private func setupViews() {
+    
+    override func setupViews() {
         let style = Style {
             $0.font = SystemFonts.AmericanTypewriter.font(size: 25)
             $0.color = "#0433FF"

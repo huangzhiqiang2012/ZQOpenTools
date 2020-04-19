@@ -237,22 +237,20 @@ class ZQMoyaController: ZQBaseController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
         requestData()
     }
-}
-
-// MARK: private
-extension ZQMoyaController {
     
-    private func setupViews() {
+    override func setupViews() {
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (m) in
             m.leading.trailing.top.equalToSuperview()
             m.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
     }
-    
+}
+
+// MARK: private
+extension ZQMoyaController {
     private func requestData() {
         ZQMoyaManager.callHomeApiMapArray(.show, type: ZQPostModel.self).done { (arr) in
             self.datasArr = arr

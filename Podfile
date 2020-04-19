@@ -14,7 +14,6 @@ target 'ZQOpenTools' do
   pod 'SnapKit'                    # 布局
   pod 'RxSwift', '~> 5'            # RxSwift
   pod 'RxCocoa', '~> 5'            # RxCocoa
-  pod "RxGesture"                  # 手势的rx封装
   pod 'Moya/RxSwift', '~> 14.0'    # 有RxSwift功能的网络请求
   pod 'HandyJSON', '~> 5.0.1'      # josn <=> model
   pod 'PromiseKit'                 # 规范回调
@@ -27,7 +26,8 @@ target 'ZQOpenTools' do
   pod 'SwiftDate'                  # 时间处理
   pod 'SwiftRichString'            # 轻量级富文本
   pod 'ActiveLabel'                # 可点击label
-  
+  pod 'TZImagePickerController'    # 图片视频选择器
+  pod 'SKPhotoBrowser'             # 图片浏览
 
   # Pods for ZQOpenTools
 

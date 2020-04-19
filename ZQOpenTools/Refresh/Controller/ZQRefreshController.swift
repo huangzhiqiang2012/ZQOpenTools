@@ -33,8 +33,20 @@ class ZQRefreshController: ZQBaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
         addRefresh()
+    }
+    
+    override func setupViews() {
+        view.addSubview(tableView0)
+        view.addSubview(tableView1)
+        tableView0.snp.makeConstraints { (m) in
+            m.top.leading.trailing.equalToSuperview()
+            m.height.equalTo(300)
+        }
+        tableView1.snp.makeConstraints { (m) in
+            m.leading.trailing.height.equalTo(tableView0)
+            m.top.equalTo(tableView0.snp.bottom).offset(20)
+        }
     }
 }
 
@@ -45,19 +57,6 @@ extension ZQRefreshController {
         return UITableView(frame: .zero).then {
             $0.register(UITableViewCell.self, forCellReuseIdentifier: NSStringFromClass(UITableViewCell.self))
             $0.dataSource = self
-        }
-    }
-    
-    private func setupViews() {
-        view.addSubview(tableView0)
-        view.addSubview(tableView1)
-        tableView0.snp.makeConstraints { (m) in
-            m.top.leading.trailing.equalToSuperview()
-            m.height.equalTo(300)
-        }
-        tableView1.snp.makeConstraints { (m) in
-            m.leading.trailing.height.equalTo(tableView0)
-            m.top.equalTo(tableView0.snp.bottom).offset(20)
         }
     }
     

@@ -52,12 +52,10 @@ PODS:
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
-  - RxGesture (3.0.1):
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
+  - SKPhotoBrowser (6.1.0)
   - SnapKit (5.0.1)
   - SwiftDate (6.1.0)
   - SwiftRichString (3.7.1)
@@ -82,6 +80,7 @@ PODS:
   - Texture/Video (2.8.1):
     - Texture/Core
   - Then (2.6.0)
+  - TZImagePickerController (3.3.1)
 
 DEPENDENCIES:
   - ActiveLabel
@@ -94,13 +93,14 @@ DEPENDENCIES:
   - Moya/RxSwift (~> 14.0)
   - PromiseKit
   - RxCocoa (~> 5)
-  - RxGesture
   - RxSwift (~> 5)
+  - SKPhotoBrowser
   - SnapKit
   - SwiftDate
   - SwiftRichString
   - Texture
   - Then
+  - TZImagePickerController
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -119,14 +119,15 @@ SPEC REPOS:
     - PINRemoteImage
     - PromiseKit
     - RxCocoa
-    - RxGesture
     - RxRelay
     - RxSwift
+    - SKPhotoBrowser
     - SnapKit
     - SwiftDate
     - SwiftRichString
     - Texture
     - Then
+    - TZImagePickerController
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
@@ -144,15 +145,16 @@ SPEC CHECKSUMS:
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
-  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftRichString: 9a6a70b4fe2cf428e38348b5ada5400da74621fd
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
 
-PODFILE CHECKSUM: 80617445cfe41ecc033c6c5e40cf5ed828172bdd
+PODFILE CHECKSUM: 8518f0b348e3ba07e7ebdcef0c7473d027400360
 
 COCOAPODS: 1.9.1

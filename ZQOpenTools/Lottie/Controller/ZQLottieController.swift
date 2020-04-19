@@ -116,13 +116,9 @@ class ZQLottieController: ZQBaseController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
     }
-}
-
-// MARK: private
-extension ZQLottieController {
-    private func setupViews() {
+    
+    override func setupViews() {
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints { (m) in
             m.leading.top.trailing.equalToSuperview()

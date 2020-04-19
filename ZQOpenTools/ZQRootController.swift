@@ -17,17 +17,13 @@ class ZQRootController: ZQBaseController {
         $0.dataSource = self
     }
     
-    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh", "Kingfisher", "Texture", "SwiftRichString"]
+    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh", "Kingfisher", "Texture", "SwiftRichString", "ActiveLabel", "TZImagePickerController", "SKPhotoBrowser"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupViews()
     }
-}
-
-// MARK: private
-extension ZQRootController {
-    private func setupViews() {
+    
+    override func setupViews() {
         title = "OpenTools"
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (m) in
@@ -51,7 +47,7 @@ extension ZQRootController : UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let title = datasArr[indexPath.row]
-        let classStr = "ZQ\(title)Controller"
+        let classStr = title.hasSuffix("Controller") ? "ZQ\(title)" : "ZQ\(title)Controller"
         let vc = classStr.zq.getViewControllerClass()
         if !vc.isKind(of: UIViewController.self) {
             return
