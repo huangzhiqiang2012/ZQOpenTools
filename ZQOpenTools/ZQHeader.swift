@@ -27,3 +27,4 @@
 @_exported import SKPhotoBrowser
 @_exported import PopMenu
 @_exported import YBPopupMenu
+@_exported import NotificationBannerSwift

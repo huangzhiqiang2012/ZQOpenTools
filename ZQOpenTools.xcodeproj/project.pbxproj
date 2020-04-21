@@ -89,6 +89,7 @@
 		95657FA824384A0F00AE21AF /* ZQPageFetchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */; };
 		95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA92438578400AE21AF /* ZQBaseModel.swift */; };
 		95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */; };
+		956C9418244E8B6600875BD4 /* ZQNotificationBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */; };
 		957322D72437373D00252A2A /* ZQTextureCommentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957322D62437373D00252A2A /* ZQTextureCommentNode.swift */; };
 		957396D8244D9BDC005E6FD0 /* popMenu_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396D6244D9BDC005E6FD0 /* popMenu_msg@2x.png */; };
 		957396D9244D9BDC005E6FD0 /* popMenu_msg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396D7244D9BDC005E6FD0 /* popMenu_msg@3x.png */; };
@@ -220,6 +221,7 @@
 		95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPageFetchProtocol.swift; sourceTree = "<group>"; };
 		95657FA92438578400AE21AF /* ZQBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseModel.swift; sourceTree = "<group>"; };
 		95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentCellNode.swift; sourceTree = "<group>"; };
+		956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQNotificationBannerController.swift; sourceTree = "<group>"; };
 		957322D62437373D00252A2A /* ZQTextureCommentNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentNode.swift; sourceTree = "<group>"; };
 		957396D6244D9BDC005E6FD0 /* popMenu_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_msg@2x.png"; sourceTree = "<group>"; };
 		957396D7244D9BDC005E6FD0 /* popMenu_msg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_msg@3x.png"; sourceTree = "<group>"; };
@@ -357,7 +359,8 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
-				95C4BC56244D4C5B00B86597 /* NewPopMenu */,
+				956C9415244E8B1C00875BD4 /* NotificationBanner */,
+				95C4BC56244D4C5B00B86597 /* PopMenu */,
 				957A3392244AA4E90029453C /* SKPhotoBrowser */,
 				953B2F4A2449800300589FC8 /* TZImagePickerController */,
 				9545B00124485F41008897B9 /* ActiveLabel */,
@@ -657,6 +660,22 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		956C9415244E8B1C00875BD4 /* NotificationBanner */ = {
+			isa = PBXGroup;
+			children = (
+				956C9416244E8B4300875BD4 /* Controller */,
+			);
+			path = NotificationBanner;
+			sourceTree = "<group>";
+		};
+		956C9416244E8B4300875BD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		957396D5244D9BD1005E6FD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,13 +733,13 @@
 			path = Node;
 			sourceTree = "<group>";
 		};
-		95C4BC56244D4C5B00B86597 /* NewPopMenu */ = {
+		95C4BC56244D4C5B00B86597 /* PopMenu */ = {
 			isa = PBXGroup;
 			children = (
 				957396D5244D9BD1005E6FD0 /* Resources */,
 				95C4BC57244D4C6100B86597 /* Controller */,
 			);
-			path = NewPopMenu;
+			path = PopMenu;
 			sourceTree = "<group>";
 		};
 		95C4BC57244D4C6100B86597 /* Controller */ = {
@@ -1042,6 +1061,7 @@
 				953CB027241334D3004C621D /* ZQHeader.swift in Sources */,
 				953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */,
 				95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */,
+				956C9418244E8B6600875BD4 /* ZQNotificationBannerController.swift in Sources */,
 				955692AD243087E4005CF750 /* ZQRefreshView.swift in Sources */,
 				955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */,
 				9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */,
