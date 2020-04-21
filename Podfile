@@ -31,7 +31,7 @@ target 'ZQOpenTools' do
   pod 'NewPopMenu'                 # 弹窗菜单
   pod 'YBPopupMenu'                # 带箭头弹窗菜单
   pod 'NotificationBannerSwift'    # 消息通知栏
-  pod 'MarqueeLabel'
+  pod 'MarqueeLabel'               # 文字可滚动显示label
 
   # Pods for ZQOpenTools
 

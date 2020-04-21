@@ -28,3 +28,4 @@
 @_exported import PopMenu
 @_exported import YBPopupMenu
 @_exported import NotificationBannerSwift
+@_exported import MarqueeLabel

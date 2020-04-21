@@ -90,6 +90,7 @@
 		95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA92438578400AE21AF /* ZQBaseModel.swift */; };
 		95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */; };
 		956C9418244E8B6600875BD4 /* ZQNotificationBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */; };
+		956C941C244EA26600875BD4 /* ZQMarqueeLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C941B244EA26600875BD4 /* ZQMarqueeLabelController.swift */; };
 		957322D72437373D00252A2A /* ZQTextureCommentNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957322D62437373D00252A2A /* ZQTextureCommentNode.swift */; };
 		957396D8244D9BDC005E6FD0 /* popMenu_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396D6244D9BDC005E6FD0 /* popMenu_msg@2x.png */; };
 		957396D9244D9BDC005E6FD0 /* popMenu_msg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396D7244D9BDC005E6FD0 /* popMenu_msg@3x.png */; };
@@ -222,6 +223,7 @@
 		95657FA92438578400AE21AF /* ZQBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseModel.swift; sourceTree = "<group>"; };
 		95657FAB243863EC00AE21AF /* ZQTextureCommentCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentCellNode.swift; sourceTree = "<group>"; };
 		956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQNotificationBannerController.swift; sourceTree = "<group>"; };
+		956C941B244EA26600875BD4 /* ZQMarqueeLabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMarqueeLabelController.swift; sourceTree = "<group>"; };
 		957322D62437373D00252A2A /* ZQTextureCommentNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureCommentNode.swift; sourceTree = "<group>"; };
 		957396D6244D9BDC005E6FD0 /* popMenu_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_msg@2x.png"; sourceTree = "<group>"; };
 		957396D7244D9BDC005E6FD0 /* popMenu_msg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_msg@3x.png"; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				956C9419244EA24B00875BD4 /* MarqueeLabel */,
 				956C9415244E8B1C00875BD4 /* NotificationBanner */,
 				95C4BC56244D4C5B00B86597 /* PopMenu */,
 				957A3392244AA4E90029453C /* SKPhotoBrowser */,
@@ -672,6 +675,22 @@
 			isa = PBXGroup;
 			children = (
 				956C9417244E8B6600875BD4 /* ZQNotificationBannerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		956C9419244EA24B00875BD4 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				956C941A244EA25200875BD4 /* Controller */,
+			);
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		956C941A244EA25200875BD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956C941B244EA26600875BD4 /* ZQMarqueeLabelController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1045,6 +1064,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956C941C244EA26600875BD4 /* ZQMarqueeLabelController.swift in Sources */,
 				9580D27924332A6700296BED /* ZQTextureHeaderNode.swift in Sources */,
 				954402CE2431CEB200594C36 /* ZQTextureController.swift in Sources */,
 				95399FE424346D9100991E39 /* ZQTextureRelationCellNode.swift in Sources */,

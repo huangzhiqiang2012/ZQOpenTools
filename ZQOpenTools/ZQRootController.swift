@@ -17,7 +17,19 @@ class ZQRootController: ZQBaseController {
         $0.dataSource = self
     }
     
-    private let datasArr:[String] = ["Promise", "Moya", "Lottie", "Refresh", "Kingfisher", "Texture", "SwiftRichString", "ActiveLabel", "TZImagePickerController", "SKPhotoBrowser", "PopMenu", "NotificationBanner"]
+    private let datasArr:[String] = ["Promise",
+                                     "Moya",
+                                     "Lottie",
+                                     "Refresh",
+                                     "Kingfisher",
+                                     "Texture",
+                                     "SwiftRichString",
+                                     "ActiveLabel",
+                                     "TZImagePickerController",
+                                     "SKPhotoBrowser",
+                                     "PopMenu",
+                                     "NotificationBanner",
+                                     "MarqueeLabel"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

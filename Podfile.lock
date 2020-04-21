@@ -95,6 +95,7 @@ DEPENDENCIES:
   - Kingfisher
   - KingfisherWebP
   - lottie-ios
+  - MarqueeLabel
   - MJRefresh
   - Moya/RxSwift (~> 14.0)
   - NewPopMenu
@@ -172,6 +173,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 7aa7d84914bfd995751f118c1998914eb91fd50e
+PODFILE CHECKSUM: fa360d5b74d0be46d5579d08286225d6bf12cf4b
 
 COCOAPODS: 1.9.1
