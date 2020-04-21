@@ -24,6 +24,9 @@ class ZQSceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UINavigationController(rootViewController: ZQRootController())
             window.makeKeyAndVisible()
             self.window = window
+            
+            /// 有些第三方还是用 UIApplication.shared.delegate?.window获取window,如果没有赋值,会崩溃--__--||
+            (UIApplication.shared.delegate as? ZQAppDelegate)?.window = window
         }
     }
 

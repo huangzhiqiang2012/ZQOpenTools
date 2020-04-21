@@ -28,6 +28,10 @@ target 'ZQOpenTools' do
   pod 'ActiveLabel'                # 可点击label
   pod 'TZImagePickerController'    # 图片视频选择器
   pod 'SKPhotoBrowser'             # 图片浏览
+  pod 'NewPopMenu'                 # 弹窗菜单
+  pod 'YBPopupMenu'                # 带箭头弹窗菜单
+  pod 'NotificationBannerSwift'    # 消息通知栏
+  pod 'MarqueeLabel'
 
   # Pods for ZQOpenTools
 

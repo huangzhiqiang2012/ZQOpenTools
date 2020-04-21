@@ -39,7 +39,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MarqueeLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NewPopMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NotificationBannerSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -125,6 +140,11 @@
 			<false/>
 		</dict>
 		<key>Then.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YBPopupMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

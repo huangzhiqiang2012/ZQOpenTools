@@ -25,3 +25,5 @@
 @_exported import ActiveLabel
 @_exported import TZImagePickerController
 @_exported import SKPhotoBrowser
+@_exported import PopMenu
+@_exported import YBPopupMenu

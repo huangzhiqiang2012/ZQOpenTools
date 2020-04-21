@@ -19,12 +19,17 @@ PODS:
     - libwebp/demux
   - libwebp/webp (1.1.0)
   - lottie-ios (3.1.6)
+  - MarqueeLabel (4.0.2)
   - MJRefresh (3.3.1)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (14.0.0):
     - Moya/Core
     - RxSwift (~> 5.0)
+  - NewPopMenu (2.1.2)
+  - NotificationBannerSwift (3.0.2):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -81,6 +86,7 @@ PODS:
     - Texture/Core
   - Then (2.6.0)
   - TZImagePickerController (3.3.1)
+  - YBPopupMenu (1.1.4)
 
 DEPENDENCIES:
   - ActiveLabel
@@ -91,6 +97,8 @@ DEPENDENCIES:
   - lottie-ios
   - MJRefresh
   - Moya/RxSwift (~> 14.0)
+  - NewPopMenu
+  - NotificationBannerSwift
   - PromiseKit
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
@@ -101,6 +109,7 @@ DEPENDENCIES:
   - Texture
   - Then
   - TZImagePickerController
+  - YBPopupMenu
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -112,8 +121,11 @@ SPEC REPOS:
     - KingfisherWebP
     - libwebp
     - lottie-ios
+    - MarqueeLabel
     - MJRefresh
     - Moya
+    - NewPopMenu
+    - NotificationBannerSwift
     - PINCache
     - PINOperation
     - PINRemoteImage
@@ -128,6 +140,7 @@ SPEC REPOS:
     - Texture
     - Then
     - TZImagePickerController
+    - YBPopupMenu
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
@@ -138,8 +151,11 @@ SPEC CHECKSUMS:
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
   libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
+  NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
@@ -154,7 +170,8 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
+  YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 8518f0b348e3ba07e7ebdcef0c7473d027400360
+PODFILE CHECKSUM: 7aa7d84914bfd995751f118c1998914eb91fd50e
 
 COCOAPODS: 1.9.1
