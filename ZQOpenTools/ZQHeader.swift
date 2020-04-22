@@ -29,3 +29,4 @@
 @_exported import YBPopupMenu
 @_exported import NotificationBannerSwift
 @_exported import MarqueeLabel
+@_exported import SkeletonView

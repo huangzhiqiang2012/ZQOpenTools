@@ -29,7 +29,8 @@ class ZQRootController: ZQBaseController {
                                      "SKPhotoBrowser",
                                      "PopMenu",
                                      "NotificationBanner",
-                                     "MarqueeLabel"]
+                                     "MarqueeLabel",
+                                     "SkeletonView"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
