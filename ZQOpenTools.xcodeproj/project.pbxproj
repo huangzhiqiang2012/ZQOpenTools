@@ -102,11 +102,23 @@
 		957396E9244D9C5A005E6FD0 /* popMenu_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396E7244D9C5A005E6FD0 /* popMenu_home@2x.png */; };
 		9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */; };
 		95770D30244F1C3100EC686A /* skeleton_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 95770D2F244F1C3100EC686A /* skeleton_avatar.png */; };
+		9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */; };
+		9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835D245181BF00264623 /* ZQIGListKitModel.swift */; };
+		957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */; };
+		957894422451D80500CC5B0D /* ZQCourseSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957894412451D80500CC5B0D /* ZQCourseSectionController.swift */; };
+		957894442451D81A00CC5B0D /* ZQNewsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957894432451D81A00CC5B0D /* ZQNewsSectionController.swift */; };
+		957894472451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957894462451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift */; };
+		957894492451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957894482451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift */; };
+		9578944B2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578944A2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift */; };
+		9578944D2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578944C2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift */; };
+		9578944F2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578944E2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift */; };
+		957894512451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957894502451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift */; };
 		957A3395244AA5300029453C /* ZQSKPhotoBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A3394244AA5300029453C /* ZQSKPhotoBrowserController.swift */; };
 		957A339B244AAC4A0029453C /* local_image_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 957A3397244AAC490029453C /* local_image_3.jpg */; };
 		957A339C244AAC4A0029453C /* local_image_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 957A3398244AAC4A0029453C /* local_image_1.jpg */; };
 		957A339D244AAC4A0029453C /* local_image_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 957A3399244AAC4A0029453C /* local_image_0.jpg */; };
 		957A339E244AAC4A0029453C /* local_image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 957A339A244AAC4A0029453C /* local_image_2.jpg */; };
+		957C71262450A684002D8124 /* ZQIGListKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957C71252450A684002D8124 /* ZQIGListKitController.swift */; };
 		9580D27924332A6700296BED /* ZQTextureHeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */; };
 		95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
@@ -237,11 +249,23 @@
 		957396E7244D9C5A005E6FD0 /* popMenu_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_home@2x.png"; sourceTree = "<group>"; };
 		9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSkeletonViewController.swift; sourceTree = "<group>"; };
 		95770D2F244F1C3100EC686A /* skeleton_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton_avatar.png; sourceTree = "<group>"; };
+		9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitViewModel.swift; sourceTree = "<group>"; };
+		9578835D245181BF00264623 /* ZQIGListKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitModel.swift; sourceTree = "<group>"; };
+		9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTopicSectionController.swift; sourceTree = "<group>"; };
+		957894412451D80500CC5B0D /* ZQCourseSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQCourseSectionController.swift; sourceTree = "<group>"; };
+		957894432451D81A00CC5B0D /* ZQNewsSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQNewsSectionController.swift; sourceTree = "<group>"; };
+		957894462451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		957894482451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQCourseCollectionViewCell.swift; sourceTree = "<group>"; };
+		9578944A2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		9578944C2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		9578944E2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitCollectionSectionHeaderView.swift; sourceTree = "<group>"; };
+		957894502451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitCollectionSectionFooterView.swift; sourceTree = "<group>"; };
 		957A3394244AA5300029453C /* ZQSKPhotoBrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSKPhotoBrowserController.swift; sourceTree = "<group>"; };
 		957A3397244AAC490029453C /* local_image_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local_image_3.jpg; sourceTree = "<group>"; };
 		957A3398244AAC4A0029453C /* local_image_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local_image_1.jpg; sourceTree = "<group>"; };
 		957A3399244AAC4A0029453C /* local_image_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local_image_0.jpg; sourceTree = "<group>"; };
 		957A339A244AAC4A0029453C /* local_image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local_image_2.jpg; sourceTree = "<group>"; };
+		957C71252450A684002D8124 /* ZQIGListKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitController.swift; sourceTree = "<group>"; };
 		9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureHeaderNode.swift; sourceTree = "<group>"; };
 		95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPopMenuController.swift; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -365,6 +389,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				957C71232450A657002D8124 /* IGListKit */,
 				9576368A244EF3D1007A32D4 /* SkeletonView */,
 				956C9419244EA24B00875BD4 /* MarqueeLabel */,
 				956C9415244E8B1C00875BD4 /* NotificationBanner */,
@@ -740,6 +765,35 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		9578835924517DF200264623 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9578835C245181A600264623 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9578835D245181BF00264623 /* ZQIGListKitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		957894452451D87D00CC5B0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				957894462451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift */,
+				957894482451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift */,
+				9578944A2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift */,
+				9578944C2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift */,
+				957894502451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift */,
+				9578944E2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		957A3392244AA4E90029453C /* SKPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +820,28 @@
 				957A3397244AAC490029453C /* local_image_3.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		957C71232450A657002D8124 /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				957894452451D87D00CC5B0D /* View */,
+				9578835C245181A600264623 /* Model */,
+				9578835924517DF200264623 /* ViewModel */,
+				957C71242450A65E002D8124 /* Controller */,
+			);
+			path = IGListKit;
+			sourceTree = "<group>";
+		};
+		957C71242450A65E002D8124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				957C71252450A684002D8124 /* ZQIGListKitController.swift */,
+				9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */,
+				957894412451D80500CC5B0D /* ZQCourseSectionController.swift */,
+				957894432451D81A00CC5B0D /* ZQNewsSectionController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9580D277243329E300296BED /* Node */ = {
@@ -1100,6 +1176,8 @@
 				954402CE2431CEB200594C36 /* ZQTextureController.swift in Sources */,
 				95399FE424346D9100991E39 /* ZQTextureRelationCellNode.swift in Sources */,
 				95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */,
+				957894422451D80500CC5B0D /* ZQCourseSectionController.swift in Sources */,
+				9578944D2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift in Sources */,
 				955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */,
 				95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */,
 				955BF60424337E52000AF568 /* ZQCustomASNode.swift in Sources */,
@@ -1117,9 +1195,17 @@
 				955692A72430463C005CF750 /* ZQRefreshController.swift in Sources */,
 				9543AF60242EF4F800117032 /* ZQPromiseController.swift in Sources */,
 				953CAFF724132EAC004C621D /* ZQSceneDelegate.swift in Sources */,
+				957894512451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift in Sources */,
 				9545B00324485F74008897B9 /* ZQActiveLabelController.swift in Sources */,
+				9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */,
 				9537556D242B537C00F9AC69 /* ZQPostModel.swift in Sources */,
+				957894442451D81A00CC5B0D /* ZQNewsSectionController.swift in Sources */,
+				957894492451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift in Sources */,
+				9578944B2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift in Sources */,
 				953DE6702433139D00E4A949 /* ZQTextureModel.swift in Sources */,
+				957C71262450A684002D8124 /* ZQIGListKitController.swift in Sources */,
+				957894472451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift in Sources */,
+				957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */,
 				9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */,
 				955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */,
 				953CB02524133356004C621D /* ZQBaseController.swift in Sources */,
@@ -1130,6 +1216,8 @@
 				95399FE22434470B00991E39 /* ZQTextureRelationNode.swift in Sources */,
 				95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */,
 				953B2F4D2449802800589FC8 /* ZQTZImagePickerController.swift in Sources */,
+				9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */,
+				9578944F2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift in Sources */,
 				95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */,
 				95478B672446A8310042BCBA /* ZQTextureListCellNode.swift in Sources */,
 				95657FA824384A0F00AE21AF /* ZQPageFetchProtocol.swift in Sources */,

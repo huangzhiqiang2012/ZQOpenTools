@@ -17,7 +17,7 @@ class ZQRootController: ZQBaseController {
         $0.dataSource = self
     }
     
-    private let datasArr:[String] = ["Promise",
+    private lazy var datasArr:[String] = ["Promise",
                                      "Moya",
                                      "Lottie",
                                      "Refresh",
@@ -30,10 +30,15 @@ class ZQRootController: ZQBaseController {
                                      "PopMenu",
                                      "NotificationBanner",
                                      "MarqueeLabel",
-                                     "SkeletonView"]
+                                     "SkeletonView",
+                                     "IGListKit"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        datasArr = datasArr.sorted(by: { (str1, str2) -> Bool in
+            return str1 < str2
+        })
+        tableView.reloadData()
     }
     
     override func setupViews() {

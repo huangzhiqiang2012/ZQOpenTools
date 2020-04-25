@@ -3,6 +3,9 @@ PODS:
   - Alamofire (5.0.2)
   - DGElasticPullToRefresh (1.1)
   - HandyJSON (5.0.1)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
   - Kingfisher (5.13.2):
     - Kingfisher/Core (= 5.13.2)
   - Kingfisher/Core (5.13.2)
@@ -93,6 +96,7 @@ DEPENDENCIES:
   - ActiveLabel
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
+  - IGListKit
   - Kingfisher
   - KingfisherWebP
   - lottie-ios
@@ -120,6 +124,8 @@ SPEC REPOS:
     - Alamofire
     - DGElasticPullToRefresh
     - HandyJSON
+    - IGListDiffKit
+    - IGListKit
     - Kingfisher
     - KingfisherWebP
     - libwebp
@@ -151,6 +157,8 @@ SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
   libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
@@ -177,6 +185,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 08434ca3f18bddd5e77556b834884dbbda802c02
+PODFILE CHECKSUM: 99f1b83e1893a93da57b50523fd94f44d92788f3
 
 COCOAPODS: 1.9.1

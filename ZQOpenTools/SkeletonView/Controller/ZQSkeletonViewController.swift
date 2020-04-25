@@ -81,6 +81,13 @@ class ZQSkeletonTableViewCell: UITableViewCell {
 /// SkeletonView控制器
 class ZQSkeletonViewController: ZQBaseController {
     
+    /**
+     本质上是为View添加相同形状的mask，然后在Mask上添加动画
+     1 找到需要添加骨骼视图的View
+     2 根据View生成具有相同形状的骨骼Mask视图
+     3 对骨骼Mask视图进行插入，更新和删除
+     */
+    
     private lazy var headerImageView:UIImageView = UIImageView().then {
         $0.image = UIImage(named: "skeleton_avatar")
         $0.zq.addRadius(radius: 46)

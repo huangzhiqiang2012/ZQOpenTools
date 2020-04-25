@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ZQBaseModel: HandyJSON {
-    required init() {}
+class ZQBaseModel: NSObject, HandyJSON {
+    required override init() {}
 }
 
 class ZQBaseResModel: ZQBaseModel {

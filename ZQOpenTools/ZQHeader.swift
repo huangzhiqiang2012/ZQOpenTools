@@ -30,3 +30,4 @@
 @_exported import NotificationBannerSwift
 @_exported import MarqueeLabel
 @_exported import SkeletonView
+@_exported import IGListKit

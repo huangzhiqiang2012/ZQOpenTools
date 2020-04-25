@@ -232,3 +232,14 @@ extension Array {
         return index < count ? self[index] : nil
     }
 }
+
+// MARK: ListSectionController + Extension
+extension ListSectionController:ZQExtensionsProvider{}
+extension ZQ where Base : ListSectionController {
+    func selfWidth() -> CGFloat {
+        if let width = base.collectionContext?.containerSize(for: base).width {
+            return width
+        }
+        return UIScreen.main.bounds.size.width
+    }
+}

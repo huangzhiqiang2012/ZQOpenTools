@@ -33,6 +33,7 @@ target 'ZQOpenTools' do
   pod 'NotificationBannerSwift'    # 消息通知栏
   pod 'MarqueeLabel'               # 文字可滚动显示label
   pod "SkeletonView"               # 加载占位图
+  pod 'IGListKit'                  # 数据驱动UICollectionView
 
   # Pods for ZQOpenTools
 
