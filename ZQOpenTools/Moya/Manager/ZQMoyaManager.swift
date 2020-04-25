@@ -8,72 +8,56 @@
 
 import UIKit
 
-class ZQMoyaManager: NSObject {
-    static let `default` = ZQMoyaManager()
+fileprivate class ZQMoyaDisposeBag: NSObject {
+    static let `default` = ZQMoyaDisposeBag()
     
-    private let disposeBag = DisposeBag()
+    fileprivate let disposeBag = DisposeBag()
+}
+
+class ZQMoyaManager<T> where T: HandyJSON {
+    
 }
 
 // MARK: public
 extension ZQMoyaManager {
     
-    /// 首页请求Api,返回对象数据模型
+    /// 请求Api,返回对象数据模型
     /// - Parameters:
     ///   - target: 接口
     ///   - type: 返回的数据模型
-    static func callHomeApiMapObject<T: HandyJSON>(_ target:ZQHomeMoyaAPI, type: T.Type) -> Promise<T> {
+    static func callApiMapObject<R: TargetType>(_ target: R) -> Promise<T> {
         if let request = try? MoyaProvider.defaultEndpointMapping(for: target).urlRequest(),
             let url = request.url {
             let urlStr = url.absoluteString
             print("--__--|| CallApi Url___\(urlStr)")
         }
-        let provider = MoyaProvider<ZQHomeMoyaAPI>()
+        let provider = MoyaProvider<R>()
         return Promise<T> { seal in
-            provider.rx.request(target).mapObjectResponse(type: type).subscribe(onNext: { (model) in
+            provider.rx.request(target).mapObjectResponse(type: T.self).subscribe(onNext: { (model) in
                 seal.fulfill(model)
             }, onError: { (error) in
                 seal.reject(error)
-            }).disposed(by: ZQMoyaManager.default.disposeBag)
+            }).disposed(by: ZQMoyaDisposeBag.default.disposeBag)
         }
     }
     
-    /// 首页请求Api,返回对象数组
+    /// 请求Api,返回对象数组
     /// - Parameters:
     ///   - target: 接口
     ///   - type: 返回的数据模型
-    static func callHomeApiMapArray<T: HandyJSON>(_ target:ZQHomeMoyaAPI, type: T.Type) -> Promise<[T]> {
+    static func callApiMapArray<R: TargetType>(_ target: R) -> Promise<[T]> {
         if let request = try? MoyaProvider.defaultEndpointMapping(for: target).urlRequest(),
             let url = request.url {
             let urlStr = url.absoluteString
             print("--__--|| CallApi Url___\(urlStr)")
         }
-        let provider = MoyaProvider<ZQHomeMoyaAPI>()
+        let provider = MoyaProvider<R>()
         return Promise<[T]> { seal in
-            provider.rx.request(target).mapArrayResponse(type: type).subscribe(onNext: { (model) in
+            provider.rx.request(target).mapArrayResponse(type: T.self).subscribe(onNext: { (model) in
                 seal.fulfill(model)
             }, onError: { (error) in
                 seal.reject(error)
-            }).disposed(by: ZQMoyaManager.default.disposeBag)
-        }
-    }
-    
-    /// Texture模块请求Api,返回对象数据模型
-    /// - Parameters:
-    ///   - target: 接口
-    ///   - type: 返回的数据模型
-    static func callTextureApiMapObject<T: HandyJSON>(_ target:ZQTextureAPI, type: T.Type) -> Promise<T> {
-        if let request = try? MoyaProvider.defaultEndpointMapping(for: target).urlRequest(),
-            let url = request.url {
-            let urlStr = url.absoluteString
-            print("--__--|| CallApi Url___\(urlStr)")
-        }
-        let provider = MoyaProvider<ZQTextureAPI>()
-        return Promise<T> { seal in
-            provider.rx.request(target).mapObjectResponse(type: type).subscribe(onNext: { (model) in
-                seal.fulfill(model)
-            }, onError: { (error) in
-                seal.reject(error)
-            }).disposed(by: ZQMoyaManager.default.disposeBag)
+            }).disposed(by: ZQMoyaDisposeBag.default.disposeBag)
         }
     }
 }

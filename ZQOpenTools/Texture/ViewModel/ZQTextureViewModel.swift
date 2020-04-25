@@ -30,7 +30,7 @@ extension ZQTextureViewModel {
     ///   - uid: 用户id
     ///   - completion: 回调
     func requestListData(isFirstFetch: Bool, uid:String, scrollView:UIScrollView, completion:@escaping (() -> ())) {
-        ZQMoyaManager.callTextureApiMapObject(.list(uid:uid, page: caculatePage(isFirstFetch), perPage: perPage), type: ZQTextureListResModel.self).done { (model) in
+        ZQMoyaManager<ZQTextureListResModel>.callApiMapObject(ZQTextureAPI.list(uid:uid, page: caculatePage(isFirstFetch), perPage: perPage)).done { (model) in
             
             if model.datas?.content?.count == 0 {
                 
@@ -108,7 +108,7 @@ extension ZQTextureViewModel {
     ///   - id: id
     ///   - completion: 回调
     func requestDetailData(id:String, completion:@escaping (() -> ())) {
-        ZQMoyaManager.callTextureApiMapObject(.detail(id: id), type: ZQTextureDetailResModel.self).done { (model) in
+        ZQMoyaManager<ZQTextureDetailResModel>.callApiMapObject(ZQTextureAPI.detail(id: id)).done { (model) in
             self.detailModel = model.datas
             completion()
         }.catch { (error) in
@@ -137,7 +137,7 @@ extension ZQTextureViewModel {
     ///   - id: id
     ///   - completion: 回调
     func requestRecommendArticleData(id:String, completion:@escaping (() -> ())) {
-        ZQMoyaManager.callTextureApiMapObject(.recommendArticle(id: id), type: ZQTextureRecommendArticleResModel.self).done { (model) in
+        ZQMoyaManager<ZQTextureRecommendArticleResModel>.callApiMapObject(ZQTextureAPI.recommendArticle(id: id)).done { (model) in
             self.recommendArticleArr = model.datas ?? [ZQTextureArticleModel]()
             completion()
         }.catch { (error) in
@@ -184,7 +184,7 @@ extension ZQTextureViewModel {
     ///   - scrollView: 滚动视图
     ///   - completion: 回调
     func requestCommentData(isFirstFetch: Bool, id:String, scrollView:UIScrollView, completion:@escaping (() -> ())) {
-        ZQMoyaManager.callTextureApiMapObject(.articleComment(id: id, page: caculatePage(isFirstFetch), perPage: perPage), type: ZQTextureArticleCommentResModel.self).done { (model) in
+        ZQMoyaManager<ZQTextureArticleCommentResModel>.callApiMapObject(ZQTextureAPI.articleComment(id: id, page: caculatePage(isFirstFetch), perPage: perPage)).done { (model) in
             
 //            let commentArr = model.datas?.content ?? [ZQTextureArticleCommentModel]()
 //            self.handleData(commentArr, scrollView: scrollView, isFirstFetch: isFirstFetch, totalCount: model.datas?.page?.totalCount ?? 0)

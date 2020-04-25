@@ -252,7 +252,7 @@ class ZQMoyaController: ZQBaseController {
 // MARK: private
 extension ZQMoyaController {
     private func requestData() {
-        ZQMoyaManager.callHomeApiMapArray(.show, type: ZQPostModel.self).done { (arr) in
+        ZQMoyaManager<ZQPostModel>.callApiMapArray(ZQHomeMoyaAPI.show).done { (arr) in
             self.datasArr = arr
             self.tableView.reloadData()
         }.catch { (error) in
