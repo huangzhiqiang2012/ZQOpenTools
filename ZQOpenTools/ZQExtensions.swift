@@ -51,8 +51,32 @@ extension ZQ where Base == String {
     }
 }
 
+// MARK: UIView + Extension
+extension UIView : ZQExtensionsProvider {}
+extension ZQ where Base : UIView {
+    func addSubViews(_ views:[UIView]) {
+        for view in views {
+            base.addSubview(view)
+        }
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor, radius:CGFloat) -> Void {
+        base.layer.borderWidth = borderWidth
+        base.layer.borderColor = borderColor.cgColor
+        addRadius(radius: radius)
+    }
+    
+    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor) -> Void {
+        addBorder(withBorderWidth: borderWidth, borderColor: borderColor, radius: 0)
+    }
+    
+    func addRadius(radius:CGFloat) -> Void {
+        base.layer.cornerRadius = radius
+        base.clipsToBounds = radius > 0 ? true : false
+    }
+}
+
 // MARK: UIScrollView + Extension
-extension UIScrollView:ZQExtensionsProvider{}
 extension ZQ where Base : UIScrollView {
     
     /*******DGElasticPullToRefresh*******/
@@ -113,31 +137,6 @@ extension ZQ where Base : UIScrollView {
     /// 重置没有更多的数据（消除没有更多数据的状态）
     func resetMJRefreshFooterWithNoMoreData() {
         base.mj_footer?.resetNoMoreData()
-    }
-}
-
-// MARK: UIView + Extension
-extension UIView : ZQExtensionsProvider {}
-extension ZQ where Base : UIView {
-    func addSubViews(_ views:[UIView]) {
-        for view in views {
-            base.addSubview(view)
-        }
-    }
-    
-    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor, radius:CGFloat) -> Void {
-        base.layer.borderWidth = borderWidth
-        base.layer.borderColor = borderColor.cgColor
-        addRadius(radius: radius)
-    }
-    
-    func addBorder(withBorderWidth borderWidth:CGFloat, borderColor:UIColor) -> Void {
-        addBorder(withBorderWidth: borderWidth, borderColor: borderColor, radius: 0)
-    }
-    
-    func addRadius(radius:CGFloat) -> Void {
-        base.layer.cornerRadius = radius
-        base.clipsToBounds = radius > 0 ? true : false
     }
 }
 
@@ -230,6 +229,14 @@ extension ASTableNode {
 extension Array {
     subscript (safe index: Int) -> Element? {
         return index < count ? self[index] : nil
+    }
+}
+
+extension Array where Element: Equatable {
+    mutating func removeElement(_ object: Element) {
+        if let index = firstIndex(of: object) {
+            remove(at: index)
+        }
     }
 }
 
