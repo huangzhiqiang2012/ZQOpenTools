@@ -85,6 +85,7 @@
 		955FC298242F82C800D724C7 /* Switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC283242F82C700D724C7 /* Switch.json */; };
 		955FC299242F82C800D724C7 /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC284242F82C700D724C7 /* LottieLogo1_masked.json */; };
 		955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 955FC285242F82C800D724C7 /* LottieLogo1.json */; };
+		95644879245B1C97001F2FD8 /* ZQToastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95644878245B1C97001F2FD8 /* ZQToastController.swift */; };
 		95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA4243848C200AE21AF /* ZQBaseViewModel.swift */; };
 		95657FA824384A0F00AE21AF /* ZQPageFetchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */; };
 		95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95657FA92438578400AE21AF /* ZQBaseModel.swift */; };
@@ -232,6 +233,7 @@
 		955FC283242F82C700D724C7 /* Switch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Switch.json; sourceTree = "<group>"; };
 		955FC284242F82C700D724C7 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
 		955FC285242F82C800D724C7 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		95644878245B1C97001F2FD8 /* ZQToastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQToastController.swift; sourceTree = "<group>"; };
 		95657FA4243848C200AE21AF /* ZQBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseViewModel.swift; sourceTree = "<group>"; };
 		95657FA724384A0F00AE21AF /* ZQPageFetchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPageFetchProtocol.swift; sourceTree = "<group>"; };
 		95657FA92438578400AE21AF /* ZQBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseModel.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				95644876245B1C69001F2FD8 /* Toast */,
 				957C71232450A657002D8124 /* IGListKit */,
 				9576368A244EF3D1007A32D4 /* SkeletonView */,
 				956C9419244EA24B00875BD4 /* MarqueeLabel */,
@@ -683,6 +686,22 @@
 				955FC264242F3EAC00D724C7 /* wallet_&_coin.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		95644876245B1C69001F2FD8 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				95644877245B1C71001F2FD8 /* Controller */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		95644877245B1C71001F2FD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95644878245B1C97001F2FD8 /* ZQToastController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		95657FA62438499800AE21AF /* Protocol */ = {
@@ -1187,6 +1206,7 @@
 				953CB03024134514004C621D /* ZQMoyaManager.swift in Sources */,
 				9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */,
 				9539A455243F249A00825901 /* ZQTextureDetailController.swift in Sources */,
+				95644879245B1C97001F2FD8 /* ZQToastController.swift in Sources */,
 				953CB027241334D3004C621D /* ZQHeader.swift in Sources */,
 				953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */,
 				95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */,

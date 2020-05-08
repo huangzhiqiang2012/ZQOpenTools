@@ -89,6 +89,7 @@ PODS:
   - Texture/Video (2.8.1):
     - Texture/Core
   - Then (2.6.0)
+  - Toast-Swift (5.0.1)
   - TZImagePickerController (3.3.1)
   - YBPopupMenu (1.1.4)
 
@@ -115,6 +116,7 @@ DEPENDENCIES:
   - SwiftRichString
   - Texture
   - Then
+  - Toast-Swift
   - TZImagePickerController
   - YBPopupMenu
 
@@ -149,6 +151,7 @@ SPEC REPOS:
     - SwiftRichString
     - Texture
     - Then
+    - Toast-Swift
     - TZImagePickerController
     - YBPopupMenu
 
@@ -182,9 +185,10 @@ SPEC CHECKSUMS:
   SwiftRichString: 9a6a70b4fe2cf428e38348b5ada5400da74621fd
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 99f1b83e1893a93da57b50523fd94f44d92788f3
+PODFILE CHECKSUM: 888f052bf2d48cc06822dc11233527811bd537f1
 
 COCOAPODS: 1.9.1

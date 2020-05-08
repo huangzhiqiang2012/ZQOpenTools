@@ -34,6 +34,7 @@ target 'ZQOpenTools' do
   pod 'MarqueeLabel'               # 文字可滚动显示label
   pod "SkeletonView"               # 加载占位图
   pod 'IGListKit'                  # 数据驱动UICollectionView
+  pod 'Toast-Swift'                # Toast提示
 
   # Pods for ZQOpenTools
 

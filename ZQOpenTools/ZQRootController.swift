@@ -17,7 +17,8 @@ class ZQRootController: ZQBaseController {
         $0.dataSource = self
     }
     
-    private lazy var datasArr:[String] = ["Promise",
+    private lazy var datasArr:[String] = [
+                                     "Promise",
                                      "Moya",
                                      "Lottie",
                                      "Refresh",
@@ -31,7 +32,9 @@ class ZQRootController: ZQBaseController {
                                      "NotificationBanner",
                                      "MarqueeLabel",
                                      "SkeletonView",
-                                     "IGListKit"]
+                                     "IGListKit",
+                                     "Toast"
+                                     ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
