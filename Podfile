@@ -35,6 +35,8 @@ target 'ZQOpenTools' do
   pod "SkeletonView"               # 加载占位图
   pod 'IGListKit'                  # 数据驱动UICollectionView
   pod 'Toast-Swift'                # Toast提示
+  pod 'IQKeyboardManagerSwift'     # 键盘管理
+  pod 'PanModal'                   # 底部弹窗
 
   # Pods for ZQOpenTools
 

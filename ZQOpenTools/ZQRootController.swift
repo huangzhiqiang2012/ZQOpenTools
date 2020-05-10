@@ -33,7 +33,9 @@ class ZQRootController: ZQBaseController {
                                      "MarqueeLabel",
                                      "SkeletonView",
                                      "IGListKit",
-                                     "Toast"
+                                     "Toast",
+                                     "IQKeyboardManager",
+                                     "PanModal"
                                      ]
 
     override func viewDidLoad() {

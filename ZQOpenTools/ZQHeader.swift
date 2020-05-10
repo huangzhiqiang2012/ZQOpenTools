@@ -31,3 +31,6 @@
 @_exported import MarqueeLabel
 @_exported import SkeletonView
 @_exported import IGListKit
+@_exported import Toast_Swift
+@_exported import IQKeyboardManagerSwift
+@_exported import PanModal

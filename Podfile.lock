@@ -6,6 +6,7 @@ PODS:
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
+  - IQKeyboardManagerSwift (6.5.5)
   - Kingfisher (5.13.2):
     - Kingfisher/Core (= 5.13.2)
   - Kingfisher/Core (5.13.2)
@@ -33,6 +34,7 @@ PODS:
   - NotificationBannerSwift (3.0.2):
     - MarqueeLabel (~> 4.0.0)
     - SnapKit (~> 5.0.0)
+  - PanModal (1.2.5)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -98,6 +100,7 @@ DEPENDENCIES:
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
   - IGListKit
+  - IQKeyboardManagerSwift
   - Kingfisher
   - KingfisherWebP
   - lottie-ios
@@ -106,6 +109,7 @@ DEPENDENCIES:
   - Moya/RxSwift (~> 14.0)
   - NewPopMenu
   - NotificationBannerSwift
+  - PanModal
   - PromiseKit
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
@@ -128,6 +132,7 @@ SPEC REPOS:
     - HandyJSON
     - IGListDiffKit
     - IGListKit
+    - IQKeyboardManagerSwift
     - Kingfisher
     - KingfisherWebP
     - libwebp
@@ -137,6 +142,7 @@ SPEC REPOS:
     - Moya
     - NewPopMenu
     - NotificationBannerSwift
+    - PanModal
     - PINCache
     - PINOperation
     - PINRemoteImage
@@ -162,6 +168,7 @@ SPEC CHECKSUMS:
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
   libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
@@ -171,6 +178,7 @@ SPEC CHECKSUMS:
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
   NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
+  PanModal: 7c5af3ad4fe22b91508040965bebffb89fb607ae
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
@@ -189,6 +197,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 888f052bf2d48cc06822dc11233527811bd537f1
+PODFILE CHECKSUM: 676f95e483c3f7cf17f8b4267509ce263bd08115
 
 COCOAPODS: 1.9.1

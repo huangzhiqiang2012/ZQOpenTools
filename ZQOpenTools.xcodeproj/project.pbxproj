@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		68077DF7F820665B038D4AE6 /* Pods_ZQOpenTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412320F3E04DD4C6D3F83DCE /* Pods_ZQOpenTools.framework */; };
+		9500E50A246561950065385D /* ZQIQKeyboardManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500E509246561950065385D /* ZQIQKeyboardManagerController.swift */; };
+		95090F492467CC7700680481 /* ZQPanModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95090F482467CC7700680481 /* ZQPanModalController.swift */; };
 		95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */; };
 		9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */; };
 		9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */; };
@@ -150,6 +152,8 @@
 		4EFB7134EDCDDB9756A0598B /* Pods-ZQOpenTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.release.xcconfig"; sourceTree = "<group>"; };
 		549C13D5C1E994296B3A8D5A /* Pods-ZQOpenToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		69722F1D5295163C3D706BDD /* Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9500E509246561950065385D /* ZQIQKeyboardManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIQKeyboardManagerController.swift; sourceTree = "<group>"; };
+		95090F482467CC7700680481 /* ZQPanModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPanModalController.swift; sourceTree = "<group>"; };
 		95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseASViewController.swift; sourceTree = "<group>"; };
 		9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaAPI.swift; sourceTree = "<group>"; };
 		9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+HandyJSON.swift"; sourceTree = "<group>"; };
@@ -326,6 +330,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9500E507246561730065385D /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9500E508246561790065385D /* Controller */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		9500E508246561790065385D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9500E509246561950065385D /* ZQIQKeyboardManagerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95090F462467CC4F00680481 /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				95090F472467CC5600680481 /* Controller */,
+			);
+			path = PanModal;
+			sourceTree = "<group>";
+		};
+		95090F472467CC5600680481 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95090F482467CC7700680481 /* ZQPanModalController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9533AF5624161A8300EE0BCF /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +427,8 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				95090F462467CC4F00680481 /* PanModal */,
+				9500E507246561730065385D /* IQKeyboardManager */,
 				95644876245B1C69001F2FD8 /* Toast */,
 				957C71232450A657002D8124 /* IGListKit */,
 				9576368A244EF3D1007A32D4 /* SkeletonView */,
@@ -1224,6 +1262,7 @@
 				9578944B2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift in Sources */,
 				953DE6702433139D00E4A949 /* ZQTextureModel.swift in Sources */,
 				957C71262450A684002D8124 /* ZQIGListKitController.swift in Sources */,
+				95090F492467CC7700680481 /* ZQPanModalController.swift in Sources */,
 				957894472451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift in Sources */,
 				957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */,
 				9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */,
@@ -1236,6 +1275,7 @@
 				95399FE22434470B00991E39 /* ZQTextureRelationNode.swift in Sources */,
 				95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */,
 				953B2F4D2449802800589FC8 /* ZQTZImagePickerController.swift in Sources */,
+				9500E50A246561950065385D /* ZQIQKeyboardManagerController.swift in Sources */,
 				9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */,
 				9578944F2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift in Sources */,
 				95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */,
