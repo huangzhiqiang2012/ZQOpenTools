@@ -34,3 +34,4 @@
 @_exported import Toast_Swift
 @_exported import IQKeyboardManagerSwift
 @_exported import PanModal
+@_exported import Hero

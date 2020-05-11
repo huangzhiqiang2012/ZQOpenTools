@@ -10,6 +10,18 @@
 		68077DF7F820665B038D4AE6 /* Pods_ZQOpenTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412320F3E04DD4C6D3F83DCE /* Pods_ZQOpenTools.framework */; };
 		9500E50A246561950065385D /* ZQIQKeyboardManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500E509246561950065385D /* ZQIQKeyboardManagerController.swift */; };
 		95090F492467CC7700680481 /* ZQPanModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95090F482467CC7700680481 /* ZQPanModalController.swift */; };
+		95090F4D246801D600680481 /* ZQHeroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95090F4C246801D600680481 /* ZQHeroController.swift */; };
+		95090F7A2468628B00680481 /* Unsplash3.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F6F2468628700680481 /* Unsplash3.png */; };
+		95090F7B2468628B00680481 /* Unsplash7.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F702468628800680481 /* Unsplash7.png */; };
+		95090F7C2468628B00680481 /* Unsplash8.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F712468628800680481 /* Unsplash8.png */; };
+		95090F7D2468628B00680481 /* Unsplash10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95090F722468628800680481 /* Unsplash10.jpg */; };
+		95090F7E2468628B00680481 /* Unsplash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F732468628800680481 /* Unsplash2.png */; };
+		95090F7F2468628B00680481 /* Unsplash4.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F742468628900680481 /* Unsplash4.png */; };
+		95090F802468628B00680481 /* Unsplash9.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F752468628900680481 /* Unsplash9.png */; };
+		95090F812468628B00680481 /* Unsplash6.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F762468628900680481 /* Unsplash6.png */; };
+		95090F822468628B00680481 /* Unsplash5.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F772468628A00680481 /* Unsplash5.png */; };
+		95090F832468628B00680481 /* Unsplash1.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F782468628B00680481 /* Unsplash1.png */; };
+		95090F842468628B00680481 /* Unsplash0.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F792468628B00680481 /* Unsplash0.png */; };
 		95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */; };
 		9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */; };
 		9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */; };
@@ -154,6 +166,18 @@
 		69722F1D5295163C3D706BDD /* Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools-ZQOpenToolsUITests/Pods-ZQOpenTools-ZQOpenToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9500E509246561950065385D /* ZQIQKeyboardManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIQKeyboardManagerController.swift; sourceTree = "<group>"; };
 		95090F482467CC7700680481 /* ZQPanModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPanModalController.swift; sourceTree = "<group>"; };
+		95090F4C246801D600680481 /* ZQHeroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQHeroController.swift; sourceTree = "<group>"; };
+		95090F6F2468628700680481 /* Unsplash3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash3.png; sourceTree = "<group>"; };
+		95090F702468628800680481 /* Unsplash7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash7.png; sourceTree = "<group>"; };
+		95090F712468628800680481 /* Unsplash8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash8.png; sourceTree = "<group>"; };
+		95090F722468628800680481 /* Unsplash10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unsplash10.jpg; sourceTree = "<group>"; };
+		95090F732468628800680481 /* Unsplash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash2.png; sourceTree = "<group>"; };
+		95090F742468628900680481 /* Unsplash4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash4.png; sourceTree = "<group>"; };
+		95090F752468628900680481 /* Unsplash9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash9.png; sourceTree = "<group>"; };
+		95090F762468628900680481 /* Unsplash6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash6.png; sourceTree = "<group>"; };
+		95090F772468628A00680481 /* Unsplash5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash5.png; sourceTree = "<group>"; };
+		95090F782468628B00680481 /* Unsplash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash1.png; sourceTree = "<group>"; };
+		95090F792468628B00680481 /* Unsplash0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash0.png; sourceTree = "<group>"; };
 		95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseASViewController.swift; sourceTree = "<group>"; };
 		9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaAPI.swift; sourceTree = "<group>"; };
 		9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+HandyJSON.swift"; sourceTree = "<group>"; };
@@ -362,6 +386,41 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		95090F4A246801A900680481 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				95090F6E2468627100680481 /* Resources */,
+				95090F4B246801B900680481 /* Controller */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		95090F4B246801B900680481 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95090F4C246801D600680481 /* ZQHeroController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95090F6E2468627100680481 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95090F792468628B00680481 /* Unsplash0.png */,
+				95090F782468628B00680481 /* Unsplash1.png */,
+				95090F732468628800680481 /* Unsplash2.png */,
+				95090F6F2468628700680481 /* Unsplash3.png */,
+				95090F742468628900680481 /* Unsplash4.png */,
+				95090F772468628A00680481 /* Unsplash5.png */,
+				95090F762468628900680481 /* Unsplash6.png */,
+				95090F702468628800680481 /* Unsplash7.png */,
+				95090F712468628800680481 /* Unsplash8.png */,
+				95090F752468628900680481 /* Unsplash9.png */,
+				95090F722468628800680481 /* Unsplash10.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9533AF5624161A8300EE0BCF /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +486,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				95090F4A246801A900680481 /* Hero */,
 				95090F462467CC4F00680481 /* PanModal */,
 				9500E507246561730065385D /* IQKeyboardManager */,
 				95644876245B1C69001F2FD8 /* Toast */,
@@ -1042,6 +1102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				955FC26C242F3EB000D724C7 /* wallet_&_coin.json in Resources */,
+				95090F7C2468628B00680481 /* Unsplash8.png in Resources */,
 				957396E4244D9C52005E6FD0 /* popMenu_kefu@3x.png in Resources */,
 				957A339E244AAC4A0029453C /* local_image_2.jpg in Resources */,
 				957396E8244D9C5A005E6FD0 /* popMenu_home@3x.png in Resources */,
@@ -1062,12 +1123,17 @@
 				955FC297242F82C800D724C7 /* Keypath.json in Resources */,
 				954402CA2431978600594C36 /* placeholder@3x.png in Resources */,
 				957396DD244D9C37005E6FD0 /* popMenu_share@3x.png in Resources */,
+				95090F7E2468628B00680481 /* Unsplash2.png in Resources */,
 				955BF60E243386EA000AF568 /* detail_like@3x.png in Resources */,
 				957396DC244D9C37005E6FD0 /* popMenu_share@2x.png in Resources */,
+				95090F7B2468628B00680481 /* Unsplash7.png in Resources */,
 				955FC287242F82C800D724C7 /* PinJump.json in Resources */,
+				95090F842468628B00680481 /* Unsplash0.png in Resources */,
 				955BF60C243386EA000AF568 /* detail_comment@3x.png in Resources */,
 				955FC28C242F82C800D724C7 /* Boat_Loader.json in Resources */,
+				95090F832468628B00680481 /* Unsplash1.png in Resources */,
 				955FC291242F82C800D724C7 /* TwitterHeart.json in Resources */,
+				95090F802468628B00680481 /* Unsplash9.png in Resources */,
 				955FC290242F82C800D724C7 /* keypathTest.json in Resources */,
 				955FC28D242F82C800D724C7 /* 9squares-AlBoardman.json in Resources */,
 				955FC29A242F82C800D724C7 /* LottieLogo1.json in Resources */,
@@ -1078,14 +1144,18 @@
 				957396E9244D9C5A005E6FD0 /* popMenu_home@2x.png in Resources */,
 				957396E5244D9C52005E6FD0 /* popMenu_kefu@2x.png in Resources */,
 				95770D30244F1C3100EC686A /* skeleton_avatar.png in Resources */,
+				95090F7F2468628B00680481 /* Unsplash4.png in Resources */,
 				955BF60F243386EA000AF568 /* detail_watch@2x.png in Resources */,
 				955FC26F242F3EB000D724C7 /* 3d_rotate_loading_animation.json in Resources */,
 				953CB00124132EAD004C621D /* LaunchScreen.storyboard in Resources */,
 				957A339C244AAC4A0029453C /* local_image_1.jpg in Resources */,
 				955BF610243386EA000AF568 /* detail_watch@3x.png in Resources */,
+				95090F7D2468628B00680481 /* Unsplash10.jpg in Resources */,
 				957A339B244AAC4A0029453C /* local_image_3.jpg in Resources */,
 				953CAFFE24132EAD004C621D /* Assets.xcassets in Resources */,
 				95399FEB24347A8B00991E39 /* detail_time@3x.png in Resources */,
+				95090F7A2468628B00680481 /* Unsplash3.png in Resources */,
+				95090F822468628B00680481 /* Unsplash5.png in Resources */,
 				95478B692446B2800042BCBA /* list_wark.png in Resources */,
 				955FC26D242F3EB000D724C7 /* loading_animation.json in Resources */,
 				955FC296242F82C800D724C7 /* GeometryTransformTest.json in Resources */,
@@ -1094,6 +1164,7 @@
 				955FC269242F3EB000D724C7 /* 226-splashy-loader.json in Resources */,
 				955FC293242F82C800D724C7 /* LottieLogo2.json in Resources */,
 				955FC286242F82C800D724C7 /* FirstText.json in Resources */,
+				95090F812468628B00680481 /* Unsplash6.png in Resources */,
 				957396D9244D9BDC005E6FD0 /* popMenu_msg@3x.png in Resources */,
 				955FC26B242F3EB000D724C7 /* 201-simple-loader.json in Resources */,
 				955BF60024337D42000AF568 /* detail_userType@3x.png in Resources */,
@@ -1256,6 +1327,7 @@
 				957894512451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift in Sources */,
 				9545B00324485F74008897B9 /* ZQActiveLabelController.swift in Sources */,
 				9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */,
+				95090F4D246801D600680481 /* ZQHeroController.swift in Sources */,
 				9537556D242B537C00F9AC69 /* ZQPostModel.swift in Sources */,
 				957894442451D81A00CC5B0D /* ZQNewsSectionController.swift in Sources */,
 				957894492451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift in Sources */,

@@ -3,6 +3,7 @@ PODS:
   - Alamofire (5.0.2)
   - DGElasticPullToRefresh (1.1)
   - HandyJSON (5.0.1)
+  - Hero (1.5.0)
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
@@ -99,6 +100,7 @@ DEPENDENCIES:
   - ActiveLabel
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
+  - Hero
   - IGListKit
   - IQKeyboardManagerSwift
   - Kingfisher
@@ -130,6 +132,7 @@ SPEC REPOS:
     - Alamofire
     - DGElasticPullToRefresh
     - HandyJSON
+    - Hero
     - IGListDiffKit
     - IGListKit
     - IQKeyboardManagerSwift
@@ -166,6 +169,7 @@ SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
@@ -197,6 +201,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: 676f95e483c3f7cf17f8b4267509ce263bd08115
+PODFILE CHECKSUM: e50ba8f0b4548bccace2c3584a472c3df2427048
 
 COCOAPODS: 1.9.1

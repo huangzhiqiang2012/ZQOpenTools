@@ -37,6 +37,7 @@ target 'ZQOpenTools' do
   pod 'Toast-Swift'                # Toast提示
   pod 'IQKeyboardManagerSwift'     # 键盘管理
   pod 'PanModal'                   # 底部弹窗
+  pod 'Hero'                       # 炫酷转场动画
 
   # Pods for ZQOpenTools
 
