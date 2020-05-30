@@ -35,3 +35,4 @@
 @_exported import IQKeyboardManagerSwift
 @_exported import PanModal
 @_exported import Hero
+@_exported import SpreadsheetView

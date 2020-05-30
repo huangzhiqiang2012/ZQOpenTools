@@ -36,7 +36,8 @@ class ZQRootController: ZQBaseController {
                                      "Toast",
                                      "IQKeyboardManager",
                                      "PanModal",
-                                     "Hero"
+                                     "Hero",
+                                     "SpreadsheetView"
                                      ]
 
     override func viewDidLoad() {

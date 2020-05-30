@@ -69,6 +69,7 @@ PODS:
   - SkeletonView (1.8.6)
   - SKPhotoBrowser (6.1.0)
   - SnapKit (5.0.1)
+  - SpreadsheetView (0.8.4)
   - SwiftDate (6.1.0)
   - SwiftRichString (3.7.1)
   - Texture (2.8.1):
@@ -118,6 +119,7 @@ DEPENDENCIES:
   - SkeletonView
   - SKPhotoBrowser
   - SnapKit
+  - SpreadsheetView
   - SwiftDate
   - SwiftRichString
   - Texture
@@ -156,6 +158,7 @@ SPEC REPOS:
     - SkeletonView
     - SKPhotoBrowser
     - SnapKit
+    - SpreadsheetView
     - SwiftDate
     - SwiftRichString
     - Texture
@@ -175,7 +178,7 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
-  libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
@@ -193,6 +196,7 @@ SPEC CHECKSUMS:
   SkeletonView: 0bf463145522c0c551b76a829b397e2a15a16d46
   SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftRichString: 9a6a70b4fe2cf428e38348b5ada5400da74621fd
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
@@ -201,6 +205,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
   YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
 
-PODFILE CHECKSUM: e50ba8f0b4548bccace2c3584a472c3df2427048
+PODFILE CHECKSUM: 7db580ceddf497896d875b261b90491eeca1a667
 
 COCOAPODS: 1.9.1

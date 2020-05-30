@@ -135,7 +135,11 @@
 		957A339E244AAC4A0029453C /* local_image_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 957A339A244AAC4A0029453C /* local_image_2.jpg */; };
 		957C71262450A684002D8124 /* ZQIGListKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957C71252450A684002D8124 /* ZQIGListKitController.swift */; };
 		9580D27924332A6700296BED /* ZQTextureHeaderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */; };
+		9590FCAB246C3C4100166196 /* ZQSpreadsheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590FCAA246C3C4100166196 /* ZQSpreadsheetViewController.swift */; };
+		9590FCAE246C43A900166196 /* ZQSpreadsheetViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590FCAD246C43A900166196 /* ZQSpreadsheetViewCell.swift */; };
+		9590FCB1246C490300166196 /* data.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 9590FCB0246C490300166196 /* data.tsv */; };
 		95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */; };
+		95E3DC64248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
 		E36D5A8CC88825A5D5F3212E /* Pods_ZQOpenToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */; };
 /* End PBXBuildFile section */
@@ -297,7 +301,11 @@
 		957A339A244AAC4A0029453C /* local_image_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local_image_2.jpg; sourceTree = "<group>"; };
 		957C71252450A684002D8124 /* ZQIGListKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitController.swift; sourceTree = "<group>"; };
 		9580D27824332A6700296BED /* ZQTextureHeaderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTextureHeaderNode.swift; sourceTree = "<group>"; };
+		9590FCAA246C3C4100166196 /* ZQSpreadsheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSpreadsheetViewController.swift; sourceTree = "<group>"; };
+		9590FCAD246C43A900166196 /* ZQSpreadsheetViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSpreadsheetViewCell.swift; sourceTree = "<group>"; };
+		9590FCB0246C490300166196 /* data.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.tsv; sourceTree = "<group>"; };
 		95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPopMenuController.swift; sourceTree = "<group>"; };
+		95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQSpreadsheetViewSlotCell.xib; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E309CD568ABDA4F87E661A80 /* Pods-ZQOpenTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQOpenToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -486,6 +494,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				9590FCA8246C3C1200166196 /* SpreadsheetView */,
 				95090F4A246801A900680481 /* Hero */,
 				95090F462467CC4F00680481 /* PanModal */,
 				9500E507246561730065385D /* IQKeyboardManager */,
@@ -975,6 +984,41 @@
 			path = Node;
 			sourceTree = "<group>";
 		};
+		9590FCA8246C3C1200166196 /* SpreadsheetView */ = {
+			isa = PBXGroup;
+			children = (
+				9590FCAF246C48EA00166196 /* Resources */,
+				9590FCAC246C3DFD00166196 /* View */,
+				9590FCA9246C3C1F00166196 /* Controller */,
+			);
+			path = SpreadsheetView;
+			sourceTree = "<group>";
+		};
+		9590FCA9246C3C1F00166196 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9590FCAA246C3C4100166196 /* ZQSpreadsheetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9590FCAC246C3DFD00166196 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9590FCAD246C43A900166196 /* ZQSpreadsheetViewCell.swift */,
+				95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9590FCAF246C48EA00166196 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9590FCB0246C490300166196 /* data.tsv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		95C4BC56244D4C5B00B86597 /* PopMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -1122,6 +1166,7 @@
 				954402C92431978600594C36 /* placeholder@2x.png in Resources */,
 				955FC297242F82C800D724C7 /* Keypath.json in Resources */,
 				954402CA2431978600594C36 /* placeholder@3x.png in Resources */,
+				95E3DC64248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib in Resources */,
 				957396DD244D9C37005E6FD0 /* popMenu_share@3x.png in Resources */,
 				95090F7E2468628B00680481 /* Unsplash2.png in Resources */,
 				955BF60E243386EA000AF568 /* detail_like@3x.png in Resources */,
@@ -1146,6 +1191,7 @@
 				95770D30244F1C3100EC686A /* skeleton_avatar.png in Resources */,
 				95090F7F2468628B00680481 /* Unsplash4.png in Resources */,
 				955BF60F243386EA000AF568 /* detail_watch@2x.png in Resources */,
+				9590FCB1246C490300166196 /* data.tsv in Resources */,
 				955FC26F242F3EB000D724C7 /* 3d_rotate_loading_animation.json in Resources */,
 				953CB00124132EAD004C621D /* LaunchScreen.storyboard in Resources */,
 				957A339C244AAC4A0029453C /* local_image_1.jpg in Resources */,
@@ -1341,12 +1387,14 @@
 				955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */,
 				953CB02524133356004C621D /* ZQBaseController.swift in Sources */,
 				953DE6732433159100E4A949 /* ZQTextureViewModel.swift in Sources */,
+				9590FCAB246C3C4100166196 /* ZQSpreadsheetViewController.swift in Sources */,
 				953CB02C24133DFF004C621D /* ZQMoyaController.swift in Sources */,
 				9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */,
 				957A3395244AA5300029453C /* ZQSKPhotoBrowserController.swift in Sources */,
 				95399FE22434470B00991E39 /* ZQTextureRelationNode.swift in Sources */,
 				95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */,
 				953B2F4D2449802800589FC8 /* ZQTZImagePickerController.swift in Sources */,
+				9590FCAE246C43A900166196 /* ZQSpreadsheetViewCell.swift in Sources */,
 				9500E50A246561950065385D /* ZQIQKeyboardManagerController.swift in Sources */,
 				9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */,
 				9578944F2451EB8D00CC5B0D /* ZQIGListKitCollectionSectionHeaderView.swift in Sources */,

@@ -38,6 +38,7 @@ target 'ZQOpenTools' do
   pod 'IQKeyboardManagerSwift'     # 键盘管理
   pod 'PanModal'                   # 底部弹窗
   pod 'Hero'                       # 炫酷转场动画
+  pod 'SpreadsheetView'            # Excel电子表格
 
   # Pods for ZQOpenTools
 
