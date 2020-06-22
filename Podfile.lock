@@ -1,6 +1,7 @@
 PODS:
   - ActiveLabel (1.1.0)
-  - Alamofire (5.0.2)
+  - Alamofire (5.2.1)
+  - CocoaAsyncSocket (7.6.4)
   - DGElasticPullToRefresh (1.1)
   - HandyJSON (5.0.1)
   - Hero (1.5.0)
@@ -8,12 +9,16 @@ PODS:
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
   - IQKeyboardManagerSwift (6.5.5)
-  - Kingfisher (5.13.2):
-    - Kingfisher/Core (= 5.13.2)
-  - Kingfisher/Core (5.13.2)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
   - KingfisherWebP (0.7.0):
     - Kingfisher (~> 5.8)
     - libwebp (>= 0.5.0)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
   - libwebp (1.1.0):
     - libwebp/demux (= 1.1.0)
     - libwebp/mux (= 1.1.0)
@@ -23,9 +28,9 @@ PODS:
   - libwebp/mux (1.1.0):
     - libwebp/demux
   - libwebp/webp (1.1.0)
-  - lottie-ios (3.1.6)
+  - lottie-ios (3.1.8)
   - MarqueeLabel (4.0.2)
-  - MJRefresh (3.3.1)
+  - MJRefresh (3.4.3)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (14.0.0):
@@ -35,7 +40,7 @@ PODS:
   - NotificationBannerSwift (3.0.2):
     - MarqueeLabel (~> 4.0.0)
     - SnapKit (~> 5.0.0)
-  - PanModal (1.2.5)
+  - PanModal (1.2.7)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -60,13 +65,13 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.13.1):
     - PromiseKit/CorePromise
-  - RxCocoa (5.0.1):
+  - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
-  - RxRelay (5.0.1):
+  - RxRelay (5.1.1):
     - RxSwift (~> 5)
-  - RxSwift (5.0.1)
-  - SkeletonView (1.8.6)
+  - RxSwift (5.1.1)
+  - SkeletonView (1.8.7)
   - SKPhotoBrowser (6.1.0)
   - SnapKit (5.0.1)
   - SpreadsheetView (0.8.4)
@@ -94,8 +99,8 @@ PODS:
     - Texture/Core
   - Then (2.6.0)
   - Toast-Swift (5.0.1)
-  - TZImagePickerController (3.3.1)
-  - YBPopupMenu (1.1.4)
+  - TZImagePickerController (3.3.2)
+  - YBPopupMenu (1.1.5)
 
 DEPENDENCIES:
   - ActiveLabel
@@ -106,6 +111,7 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - Kingfisher
   - KingfisherWebP
+  - KTVHTTPCache
   - lottie-ios
   - MarqueeLabel
   - MJRefresh
@@ -132,6 +138,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - ActiveLabel
     - Alamofire
+    - CocoaAsyncSocket
     - DGElasticPullToRefresh
     - HandyJSON
     - Hero
@@ -140,6 +147,8 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - Kingfisher
     - KingfisherWebP
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
     - libwebp
     - lottie-ios
     - MarqueeLabel
@@ -169,31 +178,34 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
-  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
   IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
-  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
-  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
   NotificationBannerSwift: 713e20f21b6105f4a36a00e5d9fa414a930d3d8e
-  PanModal: 7c5af3ad4fe22b91508040965bebffb89fb607ae
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
-  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  SkeletonView: 0bf463145522c0c551b76a829b397e2a15a16d46
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SkeletonView: ba5370f41280b2f0a76918bb143c1294232bb4f4
   SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
@@ -202,9 +214,9 @@ SPEC CHECKSUMS:
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
-  TZImagePickerController: 99f03b64145a8c92c55b9b1b931410967d9be4cb
-  YBPopupMenu: 1d1e86a42d3c2ad0b1886a996f969e6128881a4a
+  TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
+  YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: 7db580ceddf497896d875b261b90491eeca1a667
+PODFILE CHECKSUM: d1afba52a4b7d4560f4cdc0eed45c1686efa565d
 
 COCOAPODS: 1.9.1

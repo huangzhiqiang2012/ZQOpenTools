@@ -39,6 +39,7 @@ target 'ZQOpenTools' do
   pod 'PanModal'                   # 底部弹窗
   pod 'Hero'                       # 炫酷转场动画
   pod 'SpreadsheetView'            # Excel电子表格
+  pod 'KTVHTTPCache'               # 唱吧音视频框架 视频缓存
 
   # Pods for ZQOpenTools
 

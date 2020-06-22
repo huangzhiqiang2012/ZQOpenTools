@@ -36,3 +36,4 @@
 @_exported import PanModal
 @_exported import Hero
 @_exported import SpreadsheetView
+@_exported import KTVHTTPCache

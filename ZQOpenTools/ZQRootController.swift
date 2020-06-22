@@ -37,7 +37,8 @@ class ZQRootController: ZQBaseController {
                                      "IQKeyboardManager",
                                      "PanModal",
                                      "Hero",
-                                     "SpreadsheetView"
+                                     "SpreadsheetView",
+                                     "KTVHTTPCache"
                                      ]
 
     override func viewDidLoad() {
