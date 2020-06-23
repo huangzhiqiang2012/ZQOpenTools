@@ -2,6 +2,7 @@ PODS:
   - ActiveLabel (1.1.0)
   - Alamofire (5.2.1)
   - CocoaAsyncSocket (7.6.4)
+  - CryptoSwift (1.3.1)
   - DGElasticPullToRefresh (1.1)
   - HandyJSON (5.0.1)
   - Hero (1.5.0)
@@ -104,6 +105,7 @@ PODS:
 
 DEPENDENCIES:
   - ActiveLabel
+  - CryptoSwift
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
   - Hero
@@ -139,6 +141,7 @@ SPEC REPOS:
     - ActiveLabel
     - Alamofire
     - CocoaAsyncSocket
+    - CryptoSwift
     - DGElasticPullToRefresh
     - HandyJSON
     - Hero
@@ -180,6 +183,7 @@ SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CryptoSwift: f12f037f6d0fcd6d48c96db0071b653de64e6c4d
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
   HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
@@ -217,6 +221,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
   YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: d1afba52a4b7d4560f4cdc0eed45c1686efa565d
+PODFILE CHECKSUM: 191027111aba5ae69f4d55f414977dc2c9850568
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

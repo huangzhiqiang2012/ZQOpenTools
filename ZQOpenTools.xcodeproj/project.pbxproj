@@ -117,6 +117,7 @@
 		957396E9244D9C5A005E6FD0 /* popMenu_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 957396E7244D9C5A005E6FD0 /* popMenu_home@2x.png */; };
 		9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */; };
 		95770D30244F1C3100EC686A /* skeleton_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 95770D2F244F1C3100EC686A /* skeleton_avatar.png */; };
+		9577B9DA24A1D88B0071C680 /* ZQCryptoSwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9577B9D924A1D88B0071C680 /* ZQCryptoSwiftController.swift */; };
 		9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */; };
 		9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835D245181BF00264623 /* ZQIGListKitModel.swift */; };
 		957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */; };
@@ -287,6 +288,7 @@
 		957396E7244D9C5A005E6FD0 /* popMenu_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popMenu_home@2x.png"; sourceTree = "<group>"; };
 		9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSkeletonViewController.swift; sourceTree = "<group>"; };
 		95770D2F244F1C3100EC686A /* skeleton_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton_avatar.png; sourceTree = "<group>"; };
+		9577B9D924A1D88B0071C680 /* ZQCryptoSwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQCryptoSwiftController.swift; sourceTree = "<group>"; };
 		9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitViewModel.swift; sourceTree = "<group>"; };
 		9578835D245181BF00264623 /* ZQIGListKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitModel.swift; sourceTree = "<group>"; };
 		9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTopicSectionController.swift; sourceTree = "<group>"; };
@@ -502,6 +504,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				9577B9D724A1D8680071C680 /* CryptoSwift */,
 				95B0B5CB24A0A3520017A766 /* KTVHTTPCache */,
 				9590FCA8246C3C1200166196 /* SpreadsheetView */,
 				95090F4A246801A900680481 /* Hero */,
@@ -898,6 +901,22 @@
 				95770D2F244F1C3100EC686A /* skeleton_avatar.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9577B9D724A1D8680071C680 /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9577B9D824A1D86F0071C680 /* Controller */,
+			);
+			path = CryptoSwift;
+			sourceTree = "<group>";
+		};
+		9577B9D824A1D86F0071C680 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9577B9D924A1D88B0071C680 /* ZQCryptoSwiftController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		9578835924517DF200264623 /* ViewModel */ = {
@@ -1416,6 +1435,7 @@
 				953CAFF724132EAC004C621D /* ZQSceneDelegate.swift in Sources */,
 				957894512451EBA400CC5B0D /* ZQIGListKitCollectionSectionFooterView.swift in Sources */,
 				9545B00324485F74008897B9 /* ZQActiveLabelController.swift in Sources */,
+				9577B9DA24A1D88B0071C680 /* ZQCryptoSwiftController.swift in Sources */,
 				9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */,
 				95B0B5D624A0A87B0017A766 /* ZQKTVHTTPCacheCollectionViewCell.swift in Sources */,
 				95090F4D246801D600680481 /* ZQHeroController.swift in Sources */,

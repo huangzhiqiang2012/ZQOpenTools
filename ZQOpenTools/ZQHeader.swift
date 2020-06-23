@@ -37,3 +37,4 @@
 @_exported import Hero
 @_exported import SpreadsheetView
 @_exported import KTVHTTPCache
+@_exported import CryptoSwift
