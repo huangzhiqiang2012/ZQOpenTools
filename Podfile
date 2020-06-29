@@ -41,6 +41,7 @@ target 'ZQOpenTools' do
   pod 'SpreadsheetView'            # Excel电子表格
   pod 'KTVHTTPCache'               # 唱吧音视频框架 视频缓存
   pod 'CryptoSwift'                # 加密解密
+  pod 'SwiftyStoreKit'             # 内购
 
   # Pods for ZQOpenTools
 

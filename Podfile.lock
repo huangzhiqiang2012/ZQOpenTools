@@ -78,6 +78,7 @@ PODS:
   - SpreadsheetView (0.8.4)
   - SwiftDate (6.1.0)
   - SwiftRichString (3.7.1)
+  - SwiftyStoreKit (0.15.0)
   - Texture (2.8.1):
     - Texture/AssetsLibrary (= 2.8.1)
     - Texture/Core (= 2.8.1)
@@ -130,6 +131,7 @@ DEPENDENCIES:
   - SpreadsheetView
   - SwiftDate
   - SwiftRichString
+  - SwiftyStoreKit
   - Texture
   - Then
   - Toast-Swift
@@ -173,6 +175,7 @@ SPEC REPOS:
     - SpreadsheetView
     - SwiftDate
     - SwiftRichString
+    - SwiftyStoreKit
     - Texture
     - Then
     - Toast-Swift
@@ -215,12 +218,13 @@ SPEC CHECKSUMS:
   SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwiftRichString: 9a6a70b4fe2cf428e38348b5ada5400da74621fd
+  SwiftyStoreKit: 033d06b6f87955405d3f844a18a7687c2438592a
   Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
   YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: 191027111aba5ae69f4d55f414977dc2c9850568
+PODFILE CHECKSUM: b43fb9f43bfa79eb457d6ace8fa71ed15e056d23
 
 COCOAPODS: 1.9.3

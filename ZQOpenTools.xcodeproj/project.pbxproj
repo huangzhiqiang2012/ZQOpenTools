@@ -118,6 +118,7 @@
 		9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */; };
 		95770D30244F1C3100EC686A /* skeleton_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 95770D2F244F1C3100EC686A /* skeleton_avatar.png */; };
 		9577B9DA24A1D88B0071C680 /* ZQCryptoSwiftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9577B9D924A1D88B0071C680 /* ZQCryptoSwiftController.swift */; };
+		9577B9DE24A1F0690071C680 /* ZQSwiftyStoreKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9577B9DD24A1F0690071C680 /* ZQSwiftyStoreKitController.swift */; };
 		9578835B24517E2400264623 /* ZQIGListKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */; };
 		9578835E245181BF00264623 /* ZQIGListKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578835D245181BF00264623 /* ZQIGListKitModel.swift */; };
 		957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */; };
@@ -143,6 +144,7 @@
 		95B0B5D324A0A8580017A766 /* ZQKTVHTTPCacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0B5D224A0A8580017A766 /* ZQKTVHTTPCacheModel.swift */; };
 		95B0B5D624A0A87B0017A766 /* ZQKTVHTTPCacheCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0B5D524A0A87B0017A766 /* ZQKTVHTTPCacheCollectionViewCell.swift */; };
 		95B0B5D824A0B0D00017A766 /* ZQKTVHTTPCachePlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0B5D724A0B0D00017A766 /* ZQKTVHTTPCachePlayerController.swift */; };
+		95B7C9ED24A82B94009FA105 /* ZQPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7C9EC24A82B94009FA105 /* ZQPurchaseManager.swift */; };
 		95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */; };
 		95E3DC64248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
@@ -289,6 +291,7 @@
 		9576368C244EF3ED007A32D4 /* ZQSkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSkeletonViewController.swift; sourceTree = "<group>"; };
 		95770D2F244F1C3100EC686A /* skeleton_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton_avatar.png; sourceTree = "<group>"; };
 		9577B9D924A1D88B0071C680 /* ZQCryptoSwiftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQCryptoSwiftController.swift; sourceTree = "<group>"; };
+		9577B9DD24A1F0690071C680 /* ZQSwiftyStoreKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSwiftyStoreKitController.swift; sourceTree = "<group>"; };
 		9578835A24517E2400264623 /* ZQIGListKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitViewModel.swift; sourceTree = "<group>"; };
 		9578835D245181BF00264623 /* ZQIGListKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQIGListKitModel.swift; sourceTree = "<group>"; };
 		9578943F2451D7ED00CC5B0D /* ZQTopicSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQTopicSectionController.swift; sourceTree = "<group>"; };
@@ -314,6 +317,7 @@
 		95B0B5D224A0A8580017A766 /* ZQKTVHTTPCacheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQKTVHTTPCacheModel.swift; sourceTree = "<group>"; };
 		95B0B5D524A0A87B0017A766 /* ZQKTVHTTPCacheCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQKTVHTTPCacheCollectionViewCell.swift; sourceTree = "<group>"; };
 		95B0B5D724A0B0D00017A766 /* ZQKTVHTTPCachePlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQKTVHTTPCachePlayerController.swift; sourceTree = "<group>"; };
+		95B7C9EC24A82B94009FA105 /* ZQPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPurchaseManager.swift; sourceTree = "<group>"; };
 		95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPopMenuController.swift; sourceTree = "<group>"; };
 		95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQSpreadsheetViewSlotCell.xib; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -504,6 +508,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				9577B9DB24A1F0490071C680 /* SwiftyStoreKit */,
 				9577B9D724A1D8680071C680 /* CryptoSwift */,
 				95B0B5CB24A0A3520017A766 /* KTVHTTPCache */,
 				9590FCA8246C3C1200166196 /* SpreadsheetView */,
@@ -919,6 +924,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		9577B9DB24A1F0490071C680 /* SwiftyStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				95B7C9EB24A82B68009FA105 /* Manager */,
+				9577B9DC24A1F04E0071C680 /* Controller */,
+			);
+			path = SwiftyStoreKit;
+			sourceTree = "<group>";
+		};
+		9577B9DC24A1F04E0071C680 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9577B9DD24A1F0690071C680 /* ZQSwiftyStoreKitController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9578835924517DF200264623 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -1080,6 +1102,14 @@
 				95B0B5D524A0A87B0017A766 /* ZQKTVHTTPCacheCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		95B7C9EB24A82B68009FA105 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				95B7C9EC24A82B94009FA105 /* ZQPurchaseManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		95C4BC56244D4C5B00B86597 /* PopMenu */ = {
@@ -1414,6 +1444,7 @@
 				95399FE424346D9100991E39 /* ZQTextureRelationCellNode.swift in Sources */,
 				95657FAA2438578400AE21AF /* ZQBaseModel.swift in Sources */,
 				957894422451D80500CC5B0D /* ZQCourseSectionController.swift in Sources */,
+				9577B9DE24A1F0690071C680 /* ZQSwiftyStoreKitController.swift in Sources */,
 				9578944D2451E67000CC5B0D /* ZQBaseCollectionReusableView.swift in Sources */,
 				955692B12430CD9E005CF750 /* ZQKingfisherController.swift in Sources */,
 				95657FAC243863EC00AE21AF /* ZQTextureCommentCellNode.swift in Sources */,
@@ -1426,6 +1457,7 @@
 				9539A455243F249A00825901 /* ZQTextureDetailController.swift in Sources */,
 				95644879245B1C97001F2FD8 /* ZQToastController.swift in Sources */,
 				953CB027241334D3004C621D /* ZQHeader.swift in Sources */,
+				95B7C9ED24A82B94009FA105 /* ZQPurchaseManager.swift in Sources */,
 				953CAFF524132EAC004C621D /* ZQAppDelegate.swift in Sources */,
 				95657FA5243848C200AE21AF /* ZQBaseViewModel.swift in Sources */,
 				956C9418244E8B6600875BD4 /* ZQNotificationBannerController.swift in Sources */,

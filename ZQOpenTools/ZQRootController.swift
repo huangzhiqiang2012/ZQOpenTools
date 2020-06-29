@@ -39,7 +39,8 @@ class ZQRootController: ZQBaseController {
                                      "Hero",
                                      "SpreadsheetView",
                                      "KTVHTTPCache",
-                                     "CryptoSwift"
+                                     "CryptoSwift",
+                                     "SwiftyStoreKit"
                                      ]
 
     override func viewDidLoad() {

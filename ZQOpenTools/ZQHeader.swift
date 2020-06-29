@@ -38,3 +38,4 @@
 @_exported import SpreadsheetView
 @_exported import KTVHTTPCache
 @_exported import CryptoSwift
+@_exported import SwiftyStoreKit
