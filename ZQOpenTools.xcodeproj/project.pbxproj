@@ -22,6 +22,7 @@
 		95090F822468628B00680481 /* Unsplash5.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F772468628A00680481 /* Unsplash5.png */; };
 		95090F832468628B00680481 /* Unsplash1.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F782468628B00680481 /* Unsplash1.png */; };
 		95090F842468628B00680481 /* Unsplash0.png in Resources */ = {isa = PBXBuildFile; fileRef = 95090F792468628B00680481 /* Unsplash0.png */; };
+		9523381624B5A539006473D1 /* ZQProposerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9523381524B5A539006473D1 /* ZQProposerController.swift */; };
 		95324F04243345CB00C8A7ED /* ZQBaseASViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */; };
 		9533AF5524161A7D00EE0BCF /* ZQMoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */; };
 		9533AF58241641EC00EE0BCF /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */; };
@@ -189,6 +190,7 @@
 		95090F772468628A00680481 /* Unsplash5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash5.png; sourceTree = "<group>"; };
 		95090F782468628B00680481 /* Unsplash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash1.png; sourceTree = "<group>"; };
 		95090F792468628B00680481 /* Unsplash0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unsplash0.png; sourceTree = "<group>"; };
+		9523381524B5A539006473D1 /* ZQProposerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQProposerController.swift; sourceTree = "<group>"; };
 		95324F03243345CB00C8A7ED /* ZQBaseASViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQBaseASViewController.swift; sourceTree = "<group>"; };
 		9533AF5424161A7D00EE0BCF /* ZQMoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQMoyaAPI.swift; sourceTree = "<group>"; };
 		9533AF57241641EC00EE0BCF /* Observable+HandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+HandyJSON.swift"; sourceTree = "<group>"; };
@@ -443,6 +445,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		9523381324B5A517006473D1 /* Proposer */ = {
+			isa = PBXGroup;
+			children = (
+				9523381424B5A51E006473D1 /* Controller */,
+			);
+			path = Proposer;
+			sourceTree = "<group>";
+		};
+		9523381424B5A51E006473D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9523381524B5A539006473D1 /* ZQProposerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9533AF5624161A8300EE0BCF /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +526,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				9523381324B5A517006473D1 /* Proposer */,
 				9577B9DB24A1F0490071C680 /* SwiftyStoreKit */,
 				9577B9D724A1D8680071C680 /* CryptoSwift */,
 				95B0B5CB24A0A3520017A766 /* KTVHTTPCache */,
@@ -1483,6 +1502,7 @@
 				957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */,
 				9576368D244EF3ED007A32D4 /* ZQSkeletonViewController.swift in Sources */,
 				955FC25F242F3C2800D724C7 /* ZQLottieController.swift in Sources */,
+				9523381624B5A539006473D1 /* ZQProposerController.swift in Sources */,
 				953CB02524133356004C621D /* ZQBaseController.swift in Sources */,
 				953DE6732433159100E4A949 /* ZQTextureViewModel.swift in Sources */,
 				9590FCAB246C3C4100166196 /* ZQSpreadsheetViewController.swift in Sources */,

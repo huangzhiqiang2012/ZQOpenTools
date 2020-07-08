@@ -39,3 +39,4 @@
 @_exported import KTVHTTPCache
 @_exported import CryptoSwift
 @_exported import SwiftyStoreKit
+@_exported import Proposer

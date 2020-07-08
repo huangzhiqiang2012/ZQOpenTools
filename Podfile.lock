@@ -67,6 +67,7 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.13.1):
     - PromiseKit/CorePromise
+  - Proposer (1.2.3)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -125,6 +126,7 @@ DEPENDENCIES:
   - NotificationBannerSwift
   - PanModal
   - PromiseKit
+  - Proposer
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
   - SkeletonView
@@ -169,6 +171,7 @@ SPEC REPOS:
     - PINOperation
     - PINRemoteImage
     - PromiseKit
+    - Proposer
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -213,6 +216,7 @@ SPEC CHECKSUMS:
   PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Proposer: 5183316319b426f56d59061c15ef934b10482eab
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
@@ -229,6 +233,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
   YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: 30a630b95e956110a42ee80218142601f60d096b
+PODFILE CHECKSUM: dd251a5c2832a35838d9ed41c5fcbeb7177b3aef
 
 COCOAPODS: 1.9.3
