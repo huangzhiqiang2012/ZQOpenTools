@@ -20,6 +20,7 @@ PODS:
     - CocoaAsyncSocket
   - KTVHTTPCache (2.0.1):
     - KTVCocoaHTTPServer
+  - libOpenInstallSDK (2.3.1)
   - libwebp (1.1.0):
     - libwebp/demux (= 1.1.0)
     - libwebp/mux (= 1.1.0)
@@ -115,6 +116,7 @@ DEPENDENCIES:
   - Kingfisher
   - KingfisherWebP
   - KTVHTTPCache
+  - libOpenInstallSDK
   - lottie-ios
   - MarqueeLabel
   - MJRefresh
@@ -154,6 +156,7 @@ SPEC REPOS:
     - KingfisherWebP
     - KTVCocoaHTTPServer
     - KTVHTTPCache
+    - libOpenInstallSDK
     - libwebp
     - lottie-ios
     - MarqueeLabel
@@ -197,6 +200,7 @@ SPEC CHECKSUMS:
   KingfisherWebP: 50d8389a48a9004c36e655470ccbff96de1ced9c
   KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
   KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  libOpenInstallSDK: a3b390cc1a514e33253a8eacf152661cfa94ce86
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
@@ -225,6 +229,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
   YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: b43fb9f43bfa79eb457d6ace8fa71ed15e056d23
+PODFILE CHECKSUM: 30a630b95e956110a42ee80218142601f60d096b
 
 COCOAPODS: 1.9.3

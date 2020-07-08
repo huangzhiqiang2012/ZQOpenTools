@@ -42,6 +42,8 @@ target 'ZQOpenTools' do
   pod 'KTVHTTPCache'               # 唱吧音视频框架 视频缓存
   pod 'CryptoSwift'                # 加密解密
   pod 'SwiftyStoreKit'             # 内购
+  pod 'libOpenInstallSDK'          # 第三方平台, 帮助Android/iOS开发者精确的获取App每一次安装的分享(或推广)来源。https://www.openinstall.io/doc/
+  
 
   # Pods for ZQOpenTools
 
