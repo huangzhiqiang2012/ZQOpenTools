@@ -40,3 +40,4 @@
 @_exported import CryptoSwift
 @_exported import SwiftyStoreKit
 @_exported import Proposer
+@_exported import AMPopTip

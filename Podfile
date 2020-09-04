@@ -44,6 +44,7 @@ target 'ZQOpenTools' do
   pod 'SwiftyStoreKit'             # 内购
   pod 'libOpenInstallSDK'          # 第三方平台, 帮助Android/iOS开发者精确的获取App每一次安装的分享(或推广)来源。https://www.openinstall.io/doc/
   pod 'Proposer'                   # 权限检查
+  pod 'AMPopTip'                   # 弹性弹窗
 
   # Pods for ZQOpenTools
 

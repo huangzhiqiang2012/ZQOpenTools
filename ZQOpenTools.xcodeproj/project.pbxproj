@@ -148,6 +148,8 @@
 		95B7C9ED24A82B94009FA105 /* ZQPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7C9EC24A82B94009FA105 /* ZQPurchaseManager.swift */; };
 		95C4BC59244D4C7C00B86597 /* ZQPopMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */; };
 		95E3DC64248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */; };
+		95F992922500DD7F0024DC6D /* ZQAMPopTipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F992912500DD7F0024DC6D /* ZQAMPopTipController.swift */; };
+		95F992952500F1830024DC6D /* ZQAMPopTipSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F992942500F1830024DC6D /* ZQAMPopTipSwiftUIView.swift */; };
 		9FAB80460F0E5EE741C54C12 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26368AD5864BE3D0A06FE454 /* Pods_ZQOpenTools_ZQOpenToolsUITests.framework */; };
 		E36D5A8CC88825A5D5F3212E /* Pods_ZQOpenToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */; };
 /* End PBXBuildFile section */
@@ -322,6 +324,8 @@
 		95B7C9EC24A82B94009FA105 /* ZQPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPurchaseManager.swift; sourceTree = "<group>"; };
 		95C4BC58244D4C7C00B86597 /* ZQPopMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQPopMenuController.swift; sourceTree = "<group>"; };
 		95E3DC63248245EB0061CF11 /* ZQSpreadsheetViewSlotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQSpreadsheetViewSlotCell.xib; sourceTree = "<group>"; };
+		95F992912500DD7F0024DC6D /* ZQAMPopTipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQAMPopTipController.swift; sourceTree = "<group>"; };
+		95F992942500F1830024DC6D /* ZQAMPopTipSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQAMPopTipSwiftUIView.swift; sourceTree = "<group>"; };
 		A0E6C907DDAEDA9CA1812FF6 /* Pods-ZQOpenToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenToolsTests.release.xcconfig"; path = "Target Support Files/Pods-ZQOpenToolsTests/Pods-ZQOpenToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		E309CD568ABDA4F87E661A80 /* Pods-ZQOpenTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQOpenTools.debug.xcconfig"; path = "Target Support Files/Pods-ZQOpenTools/Pods-ZQOpenTools.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B44AFFC2942FD75246DE87 /* Pods_ZQOpenToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQOpenToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -526,6 +530,7 @@
 		953CAFF324132EAC004C621D /* ZQOpenTools */ = {
 			isa = PBXGroup;
 			children = (
+				95F9928F2500DD4B0024DC6D /* AMPopTip */,
 				9523381324B5A517006473D1 /* Proposer */,
 				9577B9DB24A1F0490071C680 /* SwiftyStoreKit */,
 				9577B9D724A1D8680071C680 /* CryptoSwift */,
@@ -1148,6 +1153,31 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		95F9928F2500DD4B0024DC6D /* AMPopTip */ = {
+			isa = PBXGroup;
+			children = (
+				95F992932500F15C0024DC6D /* View */,
+				95F992902500DD500024DC6D /* Controller */,
+			);
+			path = AMPopTip;
+			sourceTree = "<group>";
+		};
+		95F992902500DD500024DC6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95F992912500DD7F0024DC6D /* ZQAMPopTipController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95F992932500F15C0024DC6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95F992942500F1830024DC6D /* ZQAMPopTipSwiftUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1494,9 +1524,11 @@
 				957894442451D81A00CC5B0D /* ZQNewsSectionController.swift in Sources */,
 				957894492451D8B500CC5B0D /* ZQCourseCollectionViewCell.swift in Sources */,
 				9578944B2451D8C800CC5B0D /* ZQNewsCollectionViewCell.swift in Sources */,
+				95F992952500F1830024DC6D /* ZQAMPopTipSwiftUIView.swift in Sources */,
 				95B0B5D824A0B0D00017A766 /* ZQKTVHTTPCachePlayerController.swift in Sources */,
 				953DE6702433139D00E4A949 /* ZQTextureModel.swift in Sources */,
 				957C71262450A684002D8124 /* ZQIGListKitController.swift in Sources */,
+				95F992922500DD7F0024DC6D /* ZQAMPopTipController.swift in Sources */,
 				95090F492467CC7700680481 /* ZQPanModalController.swift in Sources */,
 				957894472451D8A200CC5B0D /* ZQTopicCollectionViewCell.swift in Sources */,
 				957894402451D7ED00CC5B0D /* ZQTopicSectionController.swift in Sources */,

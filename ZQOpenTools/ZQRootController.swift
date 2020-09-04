@@ -41,7 +41,8 @@ class ZQRootController: ZQBaseController {
                                      "KTVHTTPCache",
                                      "CryptoSwift",
                                      "SwiftyStoreKit",
-                                     "Proposer"
+                                     "Proposer",
+                                     "AMPopTip"
                                      ]
 
     override func viewDidLoad() {

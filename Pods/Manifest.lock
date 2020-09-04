@@ -1,6 +1,7 @@
 PODS:
   - ActiveLabel (1.1.0)
   - Alamofire (5.2.1)
+  - AMPopTip (4.5.0)
   - CocoaAsyncSocket (7.6.4)
   - CryptoSwift (1.3.1)
   - DGElasticPullToRefresh (1.1)
@@ -108,6 +109,7 @@ PODS:
 
 DEPENDENCIES:
   - ActiveLabel
+  - AMPopTip
   - CryptoSwift
   - DGElasticPullToRefresh
   - HandyJSON (~> 5.0.1)
@@ -146,6 +148,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - ActiveLabel
     - Alamofire
+    - AMPopTip
     - CocoaAsyncSocket
     - CryptoSwift
     - DGElasticPullToRefresh
@@ -191,6 +194,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AMPopTip: e0ed2967892b18d1e55505c015fa06e535003fdc
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CryptoSwift: f12f037f6d0fcd6d48c96db0071b653de64e6c4d
   DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
@@ -233,6 +237,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 36ca728ec681228918aa82e993aaab1962281b72
   YBPopupMenu: 12452dec37bdd9b33df25ae89050dfbd695ebdd0
 
-PODFILE CHECKSUM: dd251a5c2832a35838d9ed41c5fcbeb7177b3aef
+PODFILE CHECKSUM: 262696fc2140276740fd351cbb2b3812ba579b0a
 
 COCOAPODS: 1.9.3
