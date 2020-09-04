@@ -224,11 +224,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>libOpenInstallSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>libwebp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
